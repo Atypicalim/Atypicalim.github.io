@@ -1,7 +1,7 @@
 
 # kompasim
 
-> Hi there 👋
+> Hi there 👋 kompasim@163.com
 
 ![icon](https://avatars.githubusercontent.com/u/16191037?v=4)
 
@@ -64,14 +64,18 @@
 
 ---
 
-## Contact
-
-* kompasim@163.com
-
-<script src="https://utteranc.es/client.js"
-        repo="kompasim/kompasim.github.io"
-        issue-term="pathname"
-        theme="github-light"
+<script src="https://giscus.app/client.js"
+        data-repo="kompasim/kompasim.github.io"
+        data-repo-id="R_kgDOH1aiUQ"
+        data-category="General"
+        data-category-id="DIC_kwDOH1aiUc4CRL4b"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
         crossorigin="anonymous"
         async>
 </script>

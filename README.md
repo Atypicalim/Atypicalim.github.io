@@ -67,3 +67,11 @@
 ## Contact
 
 * kompasim@163.com
+
+<script src="https://utteranc.es/client.js"
+        repo="kompasim/kompasim.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

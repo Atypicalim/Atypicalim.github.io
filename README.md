@@ -28,6 +28,8 @@
 
 * [Spleeter](https://github.com/deezer/spleeter) | [SpleeterGui]([git@github.com:boy1dr/SpleeterGui.git](https://github.com/boy1dr/SpleeterGui))
 
+* [PowerShell to EXE converter](https://ps2exe.azurewebsites.net/)
+
 ---
 
 ## Collections

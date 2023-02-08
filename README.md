@@ -20,7 +20,7 @@
 
 ## Learning
 
-* [Turkish](https://kompasim.github.io/tr.md)
+* [Turkish](tr.md)
 
 ---
 

@@ -18,6 +18,12 @@
 
 ---
 
+## Learning
+
+* [Turkish](https://kompasim.github.io/others/tr.md)
+
+---
+
 ## Tools
 
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)

@@ -23,6 +23,8 @@
 * [script to record new words easily](https://gist.github.com/kompasim/00335d5ea603a84c13a6be1d71a39997)
 
 * [Turkish](tr.md)
+* [Russian](ru.md)
+* [Spanish](es.md)
 
 ---
 

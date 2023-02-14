@@ -327,5 +327,427 @@ title: Turkish
 | delik | hole |
 | seçim | choice |
 | minik | tiny |
-| 10 |   |
+| 11 |   |
+| yönlendirmek | to direct |
+| harika | wonderful |
+| paketlemek | to pack |
+| nazikçe | gently |
+| usulca | softly |
+| kanıt | evidence |
+| sürüklemek | to drag |
+| bir kenara | aside |
+| dönem | period |
+| açıkça | clearly |
+| mırıldanmak | to murmur |
+| akım | stream |
+| durum | circumstance |
+| ısrar etmek | to insist |
+| beyin | brain |
+| konu | issue |
+| baz | base |
+| zevk | delight |
+| ada | island |
+| bitki | plant |
+| kaydırmak | to shift |
+| ilişki | relationship |
+| fırçalamak | to brush |
+| hafif | slight |
+| çeşitli | various |
+| değer | value |
+| yerel | local |
+| uygulama | practice |
+| her nasılsa | somehow |
+| kaşlarını çatmak | to frown |
+| sarmak | to wrap |
+| jest | gesture |
+| özellik | feature |
+| tekmelemek | to kick |
+| varsaymak | to assume |
+| maç | match |
+| sıkı | tight |
+| davet etmek | to invite |
+| kemik | bone |
+| çevrelemek | to surround |
+| nihai | final |
+| yüzey | surface |
+| 12 |   |
+| silah | weapon |
+| suç | crime |
+| yakalamak | to snap |
+| tutku | passion |
+| olmadıkça | unless |
+| hız | speed |
+| fırtına | storm |
+| beslemek | to feed |
+| uymak | to accord |
+| makine | machine |
+| serbest bırakmak | to release |
+| dayı | uncle |
+| soluk | faint |
+| çift | double |
+| öğle yemeği | lunch |
+| anlık | instant |
+| plaka | plate |
+| kusursuzca | perfectly |
+| ısırmak | to bite |
+| yemin etmek | to swear |
+| sürücü | driver |
+| ayna | mirror |
+| mide | stomach |
+| yoksaymak | to ignore |
+| düzenlemek | to arrange |
+| toz | dust |
+| ovalamak | to rub |
+| parıltı | glow |
+| bağırmak | to yell |
+| bireysel | individual |
+| vizyon | vision |
+| harcamak | to waste |
+| deli | mad |
+| yetki | authority |
+| temas | contact |
+| Noel | Christmas |
+| özellikle | particularly |
+| stil | style |
+| kamyon | truck |
+| ilginç | interesting |
+| şaka | joke |
+| mırıldanmak | to mutter |
+| özellik | property |
+| çıplak | bare |
+| kabartma | relief |
+| tereddüt etmek |to hesitate |
+| 13 |   |
+| sıçramak | to leap |
+| besleme | supply |
+| kuzen | cousin |
+| süreç | process |
+| kayıp | loss |
+| ayrı | apart |
+| sıra | row |
+| hasta | patient |
+| numara yapmak | to pretend |
+| boyut | size |
+| zar zor | barely |
+| düğün | wedding |
+| duyurmak | to announce |
+| tabaka | sheet |
+| tekerlek | wheel |
+| başarı | success |
+| tehlikeli | dangerous |
+| gevşek | loose |
+| alın | forehead |
+| pala | broad |
+| uyarmak | to warn |
+| kazık | pile |
+| alev | flame |
+| pürüzsüz | smooth |
+| maliyet | cost |
+| inanç | faith |
+| köprü | bridge |
+| servet | fortune |
+| nedeniyle | due |
+| incelemek | to examine |
+| çılgın | crazy |
+| eğlence | fun |
+| çerçeve | frame |
+| yansıtmak | to reflect |
+| dolaşmak | to wander |
+| çiftlik | farm |
+| takım | team |
+| tatmin etmek | to satisfy |
+| anlam | meaning |
+| güverte | deck |
+| kare | square |
+| şube | branch |
+| silmek | to wipe |
+| fiyat | price |
+| onur | honor |
+| çan | bell |
+| 14 |   |
+| enerji | energy |
+| alışkanlık | habit |
+| arıza | fault |
+| görünüşe göre | apparently |
+| derinden | deeply |
+| suçlamak | to blame |
+| tutsak | prisoner |
+| bükmek | to twist |
+| içerik | content |
+| önlemek | to prevent |
+| geliştirmek | to develop |
+| mahvetmek | to ruin |
+| çatlamak | to crack |
+| ahşap | wooden |
+| ajan | agent |
+| malzeme | material |
+| tepki | response |
+| geçit | passage |
+| görev | task |
+| meraklı | curious |
+| dürtmek | to urge |
+| toplum | community |
+| fiziksel | physical |
+| kaynak | source |
+| köle | slave |
+| tercih etmek | to prefer |
+| eşlik etmek | to accompany |
+| değiş tokuş etmek | to exchange |
+| kütle | mass |
+| sırf | mere |
+| oran | rate |
+| apaçık | obvious |
+| açıklama | comment |
+| avantaj | advantage |
+| olasılık | possibility |
+| odaklanmak | to focus |
+| 15 |   |
+| öfke | rage |
+| sayaç | counter |
+| izlenim | impression |
+| akran | to peer |
+| kıvrılmak | to curl |
+| plaj | beach |
+| sürüklenmek | to drift |
+| yazık | pity |
+| yargılamak | to arrest |
+| belli ki | obviously |
+| aksi halde | otherwise |
+| deri | leather |
+| kaba | rough |
+| gasp etmek | to gasp |
+| bant | ban |
+| gölge | shade |
+| kolej | college |
+| halat | rope |
+| ışık | lamp |
+| saf | pure |
+| benzer | similar |
+| etkinlik | activity |
+| yankı yapmak | to echo |
+| ünlü | famous |
+| güven | confidence |
+| taahhüt etmek | to commit |
+| menzil | range |
+| güvenlik | security |
+| mürettebat | crew |
+| kükreme | to roar |
+| sinir | nervous |
+| hapis | prison |
+| tutum | attitude |
+| fatura | bill |
+| rolle | role |
+| doğum | birth |
+| uygulamak | to apply |
+| 16 |   |
+| kader | fate |
+| yumruk | fist |
+| fırınlara | to owe |
+| kule | tower |
+| bahis yapmak | to bet |
+| etek | skirt |
+| deneme | trial |
+| sıradan | ordinary |
+| teori | theory |
+| istikrarlı | steady |
+| metin | text |
+| kesinlikle | absolutely |
+| gizem | mystery |
+| danışma | advice |
+| ortak | partner |
+| kapak | cap |
+| özgürlük | freedom |
+| iki parlama | to glare |
+| sarılmak | to hug |
+| sonradan | afterwards |
+| bağımlı olmak | to depend |
+| havuz | pool |
+| topuk | heel |
+| gri | grey |
+| izin vermek | to permit |
+| utanç | shame |
+| seyirci | audience |
+| sıkmak | to squeeze |
+| temyize gitmek | to appeal |
+| bez | cloth |
+| rütbe | rank |
+| 17 |   |
+| elde etmek | to obtain |
+| ilerleme | progress |
+| üst katta | upstairs |
+| hedeflemek | to aim |
+| banyo | bathroom |
+| arazi | estate |
+| önceki | previous |
+| döndürmek | to spin |
+| kurgu | fiction |
+| ilaç | drug |
+| dirsek | elbow |
+| inmek | to descend |
+| sundurma | porch |
+| şişmek | to swell |
+| egzersiz | exercise |
+| kas | muscle |
+| dondurmak | to freeze |
+| üzmek | to upset |
+| kök | root |
+| meydan okuma | challenge |
+| cinsel | sexual |
+| sicim | string |
+| basınç | pressure |
+| zarafet | grace |
+| geniş | vast |
+| sarsılmak | to jerk |
+| kalça | hip |
+| tüfek | rifle |
+| donuk | dull |
+| karışıklık | mess |
+| bilinçli | conscious |
+| inilti | to groan |
+| mum | candle |
+| bok | shit |
+| 18 |   |
+| şövalye | knight |
+| suçlu | guilty |
+| çözmek | to resolve |
+| diz çökmek | to kneel |
+| tapınak | temple |
+| üstelik | besides |
+| dergi | magazine |
+| gelenek | tradition |
+| takdir etmek | to appreciate |
+| çekicilik | charm |
+| sonuçlandırmak | to conclude |
+| tanım | description |
+| tavan | ceiling |
+| sarılmak | to cling |
+| bank | bench |
+| sürünmek | to crawl |
+| önermek | to propose |
+| keder | grief |
+| çarpmak | to crash |
+| macera | adventure |
+| kiriş | beam |
+| emniyet | safety |
+| gözlük | glasses |
+| sıkıca | firmly |
+| çelik | steel |
+| dev | giant |
+| şaşırtmak | to startle |
+| eşit | equal |
+| direnmek | to resist |
+| hıçkırarak | to sob |
+| başına | per |
+| büyü | spell |
+| eğitim | education |
+| kanıt | proof |
+| çanak | bowl |
+| uyarı | warning |
+| derinlik | depth |
+| 19 |   |
+| kıkırdamak | to chuckle |
+| cidden | seriously |
+| geri çekilmek | to retreat |
+| kraliçe | queen |
+| sorumluluk | responsibility |
+| beceri | skill |
+| misyon | mission |
+| görenek | custom |
+| yöntem | method |
+| debriyaj | to clutch |
+| algılamak | to perceive |
+| mağara | cave |
+| övgü | praise |
+| yetenekli | capable |
+| komşu | neighbor |
+| komşu | neighbor |
+| gizlemek | to conceal |
+| bağıl | relative |
+| yakalamak | to capture |
+| kanepe | couch |
+| anında | instantly |
+| son derece | highly |
+| istihdam etmek | to employ |
+| yapı | structure |
+| çoğunlukla | mostly |
+| bakan | minister |
+| damar | vessel |
+| metres | mistress |
+| eklemek | to attach |
+| narin | delicate |
+| karıştırmak | to confuse |
+| karıştırmak | to confuse |
+| kırık | broken |
+| tüketmek | to exhaust |
+| saçma | silly |
+| hasar | damage |
+| elbise | gown |
+| etkilemek | to impress |
+| 20 |   |
+| konkluderer | conclusion |
+| hızla | rapidly |
+| ıslık çalmak | to whistle |
+| geçenlerde | recently |
+| hafifçe | lightly |
+| çirkin | ugly |
+| istihbarat | intelligence |
+| esinti | breeze |
+| bant | tape |
+| girişim yapmak | to venture |
+| tırmalamak | to scratch |
+| koku | scent |
+| çekmek | to attract |
+| gelişme | development |
+| sabitlemek | to pin |
+| şev | slope |
+| zihinsel | mental |
+| savunmak | to defend |
+| kabuk | shell |
+| arsa | plot |
+| meziyet | virtue |
+| sel | flood |
+| çanta | purse |
+| onaylamak | to confirm |
+| yargı | judgment |
+| barınak | shelter |
+| teşvik etmek | to encourage |
+| uyluk | thigh |
+| yansıma | reflection |
+| olağandışı | unusual |
+| araç | vehicle |
+| suçlamak | to accuse |
+| ilişkilendirmek | to associate |
+| izin | permission |
+| yasal | legal |
+| kaygı | anxiety |
+| başlık | title |
+ | araştırma | research |
+| kek | cake |
+| çiftçi | farmer |
+| ... | ... |
+| soyguncu | robber |
+| tekne |  boat |
+| tabaka |  layer |
+| başarılı | successful |
+| garip | strange |
+| trafik sıkışıklığı | traffic jam |
+| maden |  coal |
+| sinir |  border |
+| altına |  under |
+| güvence | assurance |
+| neredeyse |  almost |
+| biçim |  format |
+| cerrahlık |  surgery |
+| düzenli |  organised |
+| yetenek | talent |
+| kırbaç | whip |
+| delmek | pierce |
+| kavram | notion, concept |
+| geri | back |
+| topal | lame |
+| sabit |  still |
+| kıpırdamak | move |
+| doğal | natural |
+| ikna | persuade |
+| hassas | sensitive |
 | ... | ... |

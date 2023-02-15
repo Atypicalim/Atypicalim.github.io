@@ -128,7 +128,7 @@ title: Russian
 | причина | reason |
 | лошадь | horse |
 | другие | others |
-| | порядок | | order |
+| порядок | order |
 | трогать | to touch |
 | круглый | round |
 | глубоко | deep |

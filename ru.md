@@ -464,4 +464,345 @@ title: Russian
 | размещение | stage |
 | отверстие | hole |
 | лопнуть | to burst |
+| 11 |   |
+| выбор | choice |
+| серебро | silver |
+| воскликнуть | to exclaim |
+| крохотный | tiny |
+| трава | grass |
+| направлять | to direct |
+| внешний вид | appearance |
+| замечательный | wonderful |
+| упаковать | to pack |
+| осторожно | gently |
+| мягко | softly |
+| трек | track |
+| доказательства | evidence |
+| зло | evil |
+| раскрыть | to reveal |
+| существовать | to exist |
+| тащить | to drag |
+| молиться | to pray |
+| выразить | to express |
+| в сторону | aside |
+| бог | god |
+| период | period |
+| очевидно | clearly |
+| роптать | to murmur |
+| поток | stream |
+| подмести | to sweep |
+| обстоятельство | circumstance |
+| настаивать | to insist |
+| мозг | brain |
+| гладкий | plain |
+| наслаждение | delight |
+| остров | island |
+| возможность | opportunity |
+| завод | plant |
+| радость | joy |
+| сдвинуть | to shift |
+| отношения | relationship |
+| чистить | to brush |
+| незначительный | slight |
+| блин | damn |
+| дрожать | to tremble |
+| обсуждать | to discuss |
+| различный | various |
+| значение | value |
+| молодежь | youth |
+| закон | wet |
+| уничтожить | to destroy |
+| нахмуриться | to frown |
+| обернуть | to wrap |
+| связанный | bound |
+| жест | gesture |
+| священник | priest |
+| обрабатывать | to handle |
+| свидетель | witness |
+| увеличить | to increase |
+| особенность | feature |
+| пнуть | to kick |
+| предполагать | to assume |
+| спящий | asleep |
+| плотный | tight |
+| защищать | to protect |
+| отсутствие | lack |
+| полностью | entirely |
+| решение | decision |
+| включать | to include |
+| след | trail |
+| пригласить | to invite |
+| 12 |   |
+| кость | bone |
+| окружать | to surround |
+| окончательный | final |
+| поверхность | surface |
+| объявить | to declare |
+| оружие | weapon |
+| преступление | crime |
+| вес | weight |
+| листва | lover |
+| меч | sword |
+| хитрость | list |
+| присутствовать | to attend |
+| речь | speech |
+| заверить | to assure |
+| щелкнуть | to snap |
+| движение | motion |
+| страсть | passion |
+| для продвижения | to advance |
+| влияние | influence |
+| кормить | to feed |
+| согласиться | to accord |
+| выпустить | to release |
+| древний | ancient |
+| грустный | sad |
+| слабый | faint |
+| могила | grave |
+| обед | lunch |
+| растворимый | instant |
+| плита | plate |
+| похоронить | to bury |
+| лед | ice |
+| отделить | to separate |
+| кусать | to bite |
+| грабитель | roof |
+| клясться | to swear |
+| водитель | driver |
+| зеркало | mirror |
+| желудок | stomach |
+| являющийся | being |
+| получить | to gain |
+| напротив | opposite |
+| беспокоить | to bother |
+| устроить | to arrange |
+| лодка | boot |
+| пыли | dust |
+| тереть | to rub |
+| непосредственно | directly |
+| пылать | glow |
+| кричать | to yell |
+| видение | vision |
+| тратить впустую | to waste |
+| гордый | proud |
+| сумасшедший | mad |
+| власть | authority |
+| частности | particularly |
+| степень | degree |
+| бывший | former |
+| стиль | style |
+| обладать | to possess |
+| грузовик | truck |
+| шутка | joke |
+| 13 |   |
+| свойство | property |
+| голый | bare |
+| плоть | flesh |
+| колебаться | to hesitate |
+| облегчить | to ease |
+| адгезия | grip |
+| прыгать | to leap |
+| поставка | supply |
+| прерывать | to interrupt |
+| двоюродный брат | cousin |
+| потеря | loss |
+| железо | iron |
+| убедить | to convince |
+| отдельный | apart |
+| маскарадный | fancy |
+| строка | row |
+| дважды | twice |
+| течь | to flow |
+| притворяться | to pretend |
+| едва | barely |
+| свадьба | wedding |
+| объявить | to announce |
+| смех | laughter |
+| колесо | wheel |
+| успех | success |
+| опасно | dangerous |
+| бодрствующий | awake |
+| лоб | forehead |
+| пустыня | desert |
+| размешать | to stir |
+| крыло | wing |
+| предупредить | to warn |
+| сложить | to fold |
+| пламя | flame |
+| плавать | to sail |
+| представить | to introduce |
+| гладкий | smooth |
+| мощный | powerful |
+| стоимость | cost |
+| вера | faith |
+| проглотить | to swallow |
+| мост | bridge |
+| слепой | blind |
+| должное | due |
+| нежный | gentle |
+| исследовать | to examine |
+| сумасшедший | crazy |
+| веселье | fun |
+| гордость | pride |
+| заниматься | to engage |
+| аккуратный | proper |
+| отражать | to reflect |
+| бродить | to wander |
+| представлять | to represent |
+| погода | weather |
+ | удовлетворить | to satisfy |
+| слабый | weak |
+| смысл | meaning |
+| полет | flight |
+| аккуратность | careful |
+| трудность | difficulty |
+| оправдание | excuse |
+| филиал | branch |
+| стереть | to wipe |
+| 14 |   |
+| след | trace |
+| молитва | prayer |
+| честь | honor |
+| колокол | bell |
+| привычка | habit |
+| готовы | willing |
+| качество | quality |
+| бросить | to toss |
+| придираться | fault |
+| опустить | to lower |
+| по-видимому | apparently |
+| спорить | to argue |
+| глубоко | deeply |
+| обвинять | to blame |
+| протестовать | to protest |
+| заключенный | prisoner |
+| указать | to indicate |
+| крутить | to twist |
+| куртка | jacket |
+| герой | hero |
+| везение | luck |
+| содержание | content |
+| сообщить | to inform |
+| предотвратить | to prevent |
+| действительно | truly |
+| развивать | to develop |
+| подбородок | chin |
+| разрушить | to ruin |
+| взломать | to crack |
+| деревянный | wooden |
+| доставить | to deliver |
+| прохождение | passage |
+| глупый | stupid |
+| задача | task |
+| любопытный | curious |
+| преуспеть | to succeed |
+| мудрый | wise |
+| сумма | amount |
+| отрицать | to deny |
+| копать | to dig |
+| призвать | to urge |
+| навсегда | forever |
+| сообщество | community |
+| источник | source |
+| рабыня | slave |
+| предпочитать | to prefer |
+| военные | military |
+| ссылаться | to refer |
+| красочно | fully |
+| неспособный | unable |
+| сопровождать | to accompany |
+| продолжить | to proceed |
+| обменять | to exchange |
+| запрос | request |
+| установить | to establish |
+| нечетный | odd |
+| берег | shore |
+| вести | to guide |
+| золотой | golden |
+| отношение | relation |
+| угрожать | to threaten |
+| скорость | rate |
+| проклинать | to curse |
+| отдаленный | distant |
+| очевидный | obvious |
+| комментарий | comment |
+| благородный | noble |
+| преимущество | advantage |
+| 15 |   |
+| озлобленность | spite |
+| затор | file |
+| проводить | to conduct |
+| исчезать | to fade |
+| современный | modern |
+| сосредоточиться | to focus |
+| существование | existence |
+| песок | sand |
+| жертва | victim |
+| наконечник | tip |
+| ярость | rage |
+| последний | latter |
+| напугать | to scare |
+| авария | accident |
+| впечатление | impression |
+| всматриваться | to peer |
+| скручиваться | to curl |
+| собирать | to collect |
+| маршировать | to march |
+| отображать | to display |
+| пляж | beach |
+| тетка | aunt |
+| дверной проем | doorway |
+| удобный | comfortable |
+| дрейфовать | to drift |
+| жалость | pity |
+| волнение | excitement |
+| очевидно | obviously |
+| в противном случае | otherwise |
+| торговля | trade |
+| клетка | cell |
+| кожа | leather |
+| грубый | rough |
+| задыхаться | to gasp |
+| задыхаться | to gasp |
+| настроение | mood |
+| предложение | sentence |
+| статья | article |
+| цепь | chain |
+| каретка | carriage |
+| произнести | to utter |
+| тень | shade |
+| прощать | to forgive |
+| стихотворение | poem |
+| веревка | rope |
+| пример | instance |
+| загрузить | to load |
+| захватить | to seize |
+| задний | rear |
+| честный | honest |
+| главный | major |
+| сходный | similar |
+| деятельность | activity |
+| повторить | to echo |
+| занимать | to occupy |
+| выжить | to survive |
+| озабоченный | anxious |
+| смешной | funny |
+| уверенность | confidence |
+| сожалеть | to regret |
+| совершать | to commit |
+| пот | sweat |
+| диапазон | range |
+| сигнал тревоги | alarm |
+| восстановить | to recover |
+| ужас | horror |
+| безопасность | security |
+| экипаж | crew |
+| реветь | to roar |
+| рассвет | dawn |
+| нервное | nervous |
+| тюрьма | prison |
+| отказаться | to abandon |
+| травить | to grasp |
+| отношение | attitude |
+| обеспечить | to secure |
 | ... | ... |

@@ -805,4 +805,334 @@ title: Russian
 | травить | to grasp |
 | отношение | attitude |
 | обеспечить | to secure |
+| 16 |   |
+| заявление | statement |
+| обнаженный | naked |
+| чело | brow |
+| мораль | moral |
+| хвост | tail |
+| применять | to apply |
+| связать | to relate |
+| судьба | fate |
+| долина | valley |
+| воображение | imagination |
+| напугать | to frighten |
+| рынок | market |
+| намерение | intention |
+| соединение | connection |
+| мужество | courage |
+| башня | tower |
+| выйти | to emerge |
+| ставить | to bet |
+| плакать | to weep |
+| магия | magic |
+| двигатель | engine |
+| письменность | writing |
+| охотиться | to hunt |
+| обычный | ordinary |
+| продлить | to extend |
+| сохранить | to spare |
+| теория | theory |
+| неуклонный | steady |
+| предоставлять | to grant |
+| абсолютно | absolutely |
+| тайна | mystery |
+| владелец | owner |
+| позволить | allow |
+| совет | advice |
+| восхищаться | to admire |
+| крышка | cap |
+| блика | to glare |
+| заслужить | to deserve |
+| приветствовать | to greet |
+| обнимать | to hug |
+| персонал | staff |
+| толкать | to thrust |
+| впоследствии | afterwards |
+| зависеть | to depend |
+| бассейн | pool |
+| невинный | innocent |
+| пятка | heel |
+| занавес | curtain |
+| владение | possession |
+| едва | scarcely |
+| родной | native |
+| серый | grey |
+| разрешить | to permit |
+| грязный | dirty |
+| позор | shame |
+| прекратить | to cease |
+| объяснение | explanation |
+| аудитория | audience |
+| ужасный | awful |
+| труба | pipe |
+| напрягать | to strain |
+| 17 |   |
+| сжать | to squeeze |
+| обжаловать | to appeal |
+| ткань | cloth |
+| объем | volume |
+| раздел | section |
+| беспокоить | to disturb |
+| ранг | rank |
+| голодный | hungry |
+| ползти | to creep |
+| посетитель | visitor |
+| везде | everywhere |
+| получить | to obtain |
+| горничная | maid |
+| юстиция | justice |
+| круг | lap |
+| наверх | upstairs |
+| вера | belief |
+| подключить | to connect |
+| призрак | ghost |
+| стремиться | to aim |
+| бросать | to fling |
+| хирургия | operation |
+| облегчить | to relieve |
+| талия | waist |
+| обнимать | to embrace |
+| горшок | pot |
+| имущество | estate |
+| предыдущий | previous |
+| крутиться | to spin |
+| ловушка | trap |
+| влиять | to affect |
+| трюк | trick |
+| пьяный | drunk |
+| намек | hint |
+| заменить | to replace |
+| возмущенно | harm |
+| локоть | elbow |
+| спускаться | to descend |
+| крыльцо | porch |
+| раздуваться | to swell |
+| осуществление | exercise |
+| заморозить | to freeze |
+| расстраивать | to upset |
+| жаловаться | to complain |
+| благоприятствовать | favor |
+| корень | root |
+| зверь | beast |
+| возникать | to arise |
+| половой | sexual |
+| строка | string |
+| предел | limit |
+| давление | pressure |
+| исчезнуть | to vanish |
+| благодать | grace |
+| признаться | to confess |
+| жертвоприношение | sacrifice |
+| прибытие | arrival |
+| дергаться | to jerk |
+| тазобедренный | hip |
+| масло | oil |
+| шаблон | pattern |
+| регулярный | regular |
+| винтовка | rifle |
+| 18 |   |
+| задница | ass |
+| тусклый | dull |
+| сознательный | conscious |
+| беспорядок | mess |
+| стонать | to groan |
+| konsekvens | consequence |
+| баланс | balance |
+| принцип | principle |
+| ток | current |
+| свеча | candle |
+| дерьмо | shit |
+| высота | height |
+| акции | stock |
+| рыцарь | knight |
+| замок | castle |
+| забор | fence |
+| виновный | guilty |
+| разрешить | to resolve |
+| расслабиться | to relax |
+| храм | temple |
+| кроме | besides |
+| сидящий | seated |
+| горький | bitter |
+| ценить | to appreciate |
+| наука | science |
+| дрожи | to shiver |
+| ежедневно | daily |
+| обсуждение | discussion |
+| принц | prince |
+| очарование | charm |
+| раздеть | to strip |
+| вывод | to conclude |
+| единообразный | uniform |
+| описание | description |
+| потолок | ceiling |
+| куст | bush |
+| тесно | closely |
+| цепляться | to cling |
+| скамья | bench |
+| преследовать | to pursue |
+| отважный | brave |
+| удовлетворение | satisfaction |
+| ползать | to crawl |
+| кровавый | bloody |
+| сравнивать | to compare |
+| иностранные | foreign |
+| предложить | to propose |
+| спрашивать | to inquire |
+| горе | grief |
+| помощь | aid |
+| врезаться | to crash |
+| приключение | adventure |
+| луч | beam |
+| безопасность | safety |
+| твердо | firmly |
+| сталь | steel |
+| нерв | nerve |
+| подозрительность | suspicion |
+| испугаться | to startle |
+| равный | equal |
+| палатка | tent |
+| поколение | generation |
+| сопротивляться | to resist |
+| рыдать | to sob |
+| заклинание | spell |
+| реакция | reaction |
+| образование | education |
+| 19 |   |
+| доказательство | proof |
+| возбуждать | to excite |
+| сиять | to blink |
+| взбить | to whip |
+| идентифицировать | to identify |
+| чаша | bowl |
+| разоблачить | to expose |
+| предупреждение | warning |
+| глубина | depth |
+| глава | chapter |
+| сильно | heavily |
+| бровь | eyebrow |
+| посмеиваться | to chuckle |
+| дворец | palace |
+| отступать | to retreat |
+| дополнительный | extra |
+| молча | silently |
+| запястье | wrist |
+| ответственность | responsibility |
+| целом | in general |
+| умение | skill |
+| миссия | mission |
+| преследовать | to chase |
+| обычай | custom |
+| тенденцию | to tend |
+| корова | cow |
+| воин | warrior |
+| воспринимать | to perceive |
+| пещера | cave |
+| похвала | praise |
+| способный | capable |
+| нанять | to hire |
+| версия | version |
+| сосед | neighbor |
+| скрывать | to conceal |
+| сверлить | to bore |
+| симпатия | sympathy |
+| любопытство | curiosity |
+| обязывают | to oblige |
+| ремень | belt |
+| относительный | relative |
+| понятие | notion |
+| переключаться | to switch |
+| кушетка | couch |
+| немедленно | instantly |
+| угроза | threat |
+| нанять | to employ |
+| ссылка | link |
+| отсутствие | absence |
+| отчаяние | despair |
+| благодарный | grateful |
+| вывести | to withdraw |
+| подушка | pillow |
+| видимый | visible |
+| судно | vessel |
+| любовница | mistress |
+| прикрепить | to attach |
+| нежный | delicate |
+| запутать | to confuse |
+| сломанный | broken |
+| исчерпать | to exhaust |
+| глупый | silly |
+| печаль | sorrow |
+| повреждение | damage |
+| 20 |   |
+| предать | to betray |
+| признать | to acknowledge |
+| платье | gown |
+| твердый | solid |
+| фраза | phrase |
+| гвоздь | nail |
+| поддерживать | to maintain |
+| произвести | produce |
+| впечатление | impression |
+| пуля | bullet |
+| работник | worker |
+| магистральный | trunk |
+| пистолет | pistol |
+| коттедж | cottage |
+| блестящий | brilliant |
+| свистеть | to whistle |
+| отчаянный | desperate |
+| слегка | lightly |
+| аспект | aspect |
+| путаница | confusion |
+| уродливый | ugly |
+| интеллект | intelligence |
+| пролить | to shed |
+| кривая | curve |
+| ветер | breeze |
+| рисковать | to venture |
+| поцарапать | to scratch |
+| нюх | scent |
+| привлечь | to attract |
+| развитие | development |
+| приколоть | to pin |
+| пихать | to shove |
+| скат | slope |
+| естественно | naturally |
+| умственный | mental |
+| защищать | to defend |
+| заработать | to earn |
+| грязь | dirt |
+| оболочка | shell |
+| участок | plot |
+| корона | crown |
+| успешный | successful |
+| добродетель | virtue |
+| наводнение | flood |
+| кошелек | purse |
+| поэзия | poetry |
+| живот | belly |
+| общий | total |
+| подтвердить | to confirm |
+| решение | judgment |
+| раздавить | to crush |
+| укрытие | shelter |
+| погладить | to pat |
+| сознание | consciousness |
+| делить | to divide |
+| преступник | criminal |
+| драгоценный | precious |
+| довольно | fairly |
+| поощрять | to encourage |
+| граница | border |
+| отражение | reflection |
+| похороны | funeral |
+| отдел | department |
+| необычный | unusual |
+| страшиться | dread |
+| фон | background |
+| обвинять | to accuse |
+| полностью | totally |
+| выгода | benefit |
+| обеденный | dining |
 | ... | ... |

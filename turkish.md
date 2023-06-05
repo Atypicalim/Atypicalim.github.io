@@ -7,9 +7,7 @@ title: Most used Turkish words for beginners
 ### 1. Nouns
 
 <details markdown=1>
-  <summary>Top 100 most used turkish nouns sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish nouns sorted by usage frequency</summary>
 
 1. insan - human
 
@@ -211,14 +209,11 @@ title: Most used Turkish words for beginners
 
 100. özellik - feature
 
-  </p>
 </details>
 
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. adamakıllı - sensible, intelligent
 
@@ -420,13 +415,10 @@ title: Most used Turkish words for beginners
 
 100. dalga - wave
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. damar - vein, artery
 
@@ -628,15 +620,12 @@ title: Most used Turkish words for beginners
 
 100. gündüz - daytime, day
 
-  </p>
 </details>
 
 ### 2. Verbs
 
 <details markdown=1>
-  <summary>Top 100 most used turkish verbs sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish verbs sorted by usage frequency</summary>
 
 1. yapmak - to do, make
 
@@ -838,13 +827,10 @@ title: Most used Turkish words for beginners
 
 100. yapabildikleri - what they can do, what they are able to do
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. ölmek - to die
 
@@ -1046,13 +1032,10 @@ title: Most used Turkish words for beginners
 
 100. zorlamak - to force, compel
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. almak - to take, buy
 
@@ -1252,15 +1235,12 @@ title: Most used Turkish words for beginners
 
 100. yemeğe çıkmak - to go out to eat, dine out
 
-  </p>
 </details>
 
 ### 3. Adjectives
 
 <details markdown=1>
-  <summary>Top 100 most used turkish adjectives sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish adjectives sorted by usage frequency</summary>
 
 1. iyi - good
 
@@ -1462,13 +1442,10 @@ title: Most used Turkish words for beginners
 
 100. orta boyutlu - medium-sized.
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. iğrenç - disgusting, revolting
 
@@ -1670,15 +1647,12 @@ title: Most used Turkish words for beginners
 
 100. huzurlu - peaceful, tranquil.
 
-  </p>
 </details>
 
 ## 4. Pronouns
 
 <details markdown=1>
-  <summary>Top 100 most used turkish pronouns sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish pronouns sorted by usage frequency</summary>
 
 1. ben - I, me
 
@@ -1880,15 +1854,12 @@ title: Most used Turkish words for beginners
 
 100. kendisinden - from himself, from herself, from itself.
 
-  </p>
 </details>
 
 ## 5. Adverbs
 
 <details markdown=1>
-  <summary>Top 100 most used turkish adverbs sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish adverbs sorted by usage frequency</summary>
 
 1. çok - very, much
 
@@ -2090,13 +2061,10 @@ title: Most used Turkish words for beginners
 
 100. özgür - liberally, freely
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 1. yaklaşık - approximately, about
 
@@ -2296,15 +2264,12 @@ title: Most used Turkish words for beginners
 
 100. yine de - nevertheless, still
 
-  </p>
 </details>
 
 ## 6. Prepositions
 
 <details markdown=1>
-  <summary>Top 100 most used turkish prepositions sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish prepositions sorted by usage frequency</summary>
 
 1. için - for, in order to
 
@@ -2346,15 +2311,12 @@ title: Most used Turkish words for beginners
 
 20. kadar - as much as, to the extent that
 
-  </p>
 </details>
 
 ## 7. Conjunctions
 
 <details markdown=1>
-  <summary>Top 100 most used turkish conjunctions sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish conjunctions sorted by usage frequency</summary>
 
 1. ve - and
 
@@ -2554,15 +2516,12 @@ title: Most used Turkish words for beginners
 
 100. nedense - for some reason, somehow
 
-  </p>
 </details>
 
 ## 8. Interjections
 
 <details markdown=1>
-  <summary>Top 100 most used turkish Interjections sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used turkish Interjections sorted by usage frequency</summary>
 
 1. evet - yes
 
@@ -2764,15 +2723,12 @@ title: Most used Turkish words for beginners
 
 100. hadi öyleyse - all right then
 
-  </p>
 </details>
 
 ## 9. Others
 
 <details markdown=1>
-  <summary>Most used Antonym adjective pairs in turkish</summary>
-  <p>
-
+<summary>Most used Antonym adjective pairs in turkish</summary>
 
 1. büyük - küçük (big - small)
 
@@ -2814,13 +2770,10 @@ title: Most used Turkish words for beginners
 
 20. aç - tok (hungry - full)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used turkish words about numbers and order sorted by usage frequency</summary>
-  <p>
-
+<summary>most used turkish words about numbers and order sorted by usage frequency</summary>
 
 1. bir (one)
 
@@ -2872,13 +2825,10 @@ title: Most used Turkish words for beginners
 
 25. onuncu (tenth)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used turkish words about time and date sorted by usage frequency</summary>
-  <p>
-
+<summary>most used turkish words about time and date sorted by usage frequency</summary>
 
 1. gün (day)
 
@@ -2940,13 +2890,10 @@ title: Most used Turkish words for beginners
 
 30. aralık (December)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used turkish words about question and answer sorted by usage frequency</summary>
-  <p>
-
+<summary>most used turkish words about question and answer sorted by usage frequency</summary>
 
 1. ne (what)
 
@@ -2988,6 +2935,5 @@ title: Most used Turkish words for beginners
 
 20. hangi ülkede (which country)
 
-  </p>
 </details>
 

@@ -7,8 +7,7 @@ title: Most used Russian words for beginners
 ### 1. Nouns
 
 <details markdown=1>
-  <summary>Top 100 most used russian nouns sorted by usage frequency</summary>
-
+<summary>Top 100 most used russian nouns sorted by usage frequency</summary>
 1. человек (person)
 
 2. время (time)
@@ -213,11 +212,13 @@ title: Most used Russian words for beginners
 
 
 <details markdown=1>
-  <summary>more 100</summary>
-
+<summary>more 100</summary>
 101. масса (mass, weight)
+
 102. победа (victory, win)
+
 103. гость (guest)
+
 104. доллар (dollar)
 
 105. экран (screen)
@@ -412,13 +413,10 @@ title: Most used Russian words for beginners
 
 200. корм (feed, food)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 201. проблема (problem)
 
@@ -620,15 +618,12 @@ title: Most used Russian words for beginners
 
 300. дым (smoke)
 
-  </p>
 </details>
 
 ### 2. Verbs
 
 <details markdown=1>
-  <summary>Top 100 most used russian verbs sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian verbs sorted by usage frequency</summary>
 
 1. быть (to be)
 
@@ -830,13 +825,10 @@ title: Most used Russian words for beginners
 
 100. улучшать (to improve)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 101. бежать (to run)
 
@@ -1038,13 +1030,10 @@ title: Most used Russian words for beginners
 
 200. обрабатывать (to process, to treat)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 201. вырабатывать (to develop, to produce)
 
@@ -1246,15 +1235,12 @@ title: Most used Russian words for beginners
 
 300. существенный (substantial, significant)
 
-  </p>
 </details>
 
 ### 3. Adjectives
 
 <details markdown=1>
-  <summary>Top 100 most used russian adjectives sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian adjectives sorted by usage frequency</summary>
 
 1. большой (big, large)
 
@@ -1456,13 +1442,10 @@ title: Most used Russian words for beginners
 
 100. домашний (domestic, home)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 101. температурный (thermal, temperature)
 
@@ -1664,15 +1647,12 @@ title: Most used Russian words for beginners
 
 200. душевно-трогательный (touching, heartwarming)
 
-  </p>
 </details>
 
 ## 4. Pronouns
 
 <details markdown=1>
-  <summary>Top 100 most used russian pronouns sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian pronouns sorted by usage frequency</summary>
 
 1. я (I)
 
@@ -1874,13 +1854,10 @@ title: Most used Russian words for beginners
 
 100. главный (main, chief)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 101. весьма (very, quite)
 
@@ -2082,15 +2059,12 @@ title: Most used Russian words for beginners
 
 200. вокруг шума (around the noise)
 
-  </p>
 </details>
 
 ## 5. Adverbs
 
 <details markdown=1>
-  <summary>Top 100 most used russian adverbs sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian adverbs sorted by usage frequency</summary>
 
 1. уже (already)
 
@@ -2292,13 +2266,10 @@ title: Most used Russian words for beginners
 
 100. точный (precise)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>more 100</summary>
-  <p>
-
+<summary>more 100</summary>
 
 101. легко (easily, lightly)
 
@@ -2500,15 +2471,12 @@ title: Most used Russian words for beginners
 
 200. налево от центра главного города (to the left of the center of the main city)
 
-  </p>
 </details>
 
 ## 6. Prepositions
 
 <details markdown=1>
-  <summary>Top 100 most used russian prepositions sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian prepositions sorted by usage frequency</summary>
 
 1. в (in, into, to)
 
@@ -2710,15 +2678,12 @@ title: Most used Russian words for beginners
 
 100. из учета (taking into account)
 
-  </p>
 </details>
 
 ## 7. Conjunctions
 
 <details markdown=1>
-  <summary>Top 100 most used russian conjunctions sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian conjunctions sorted by usage frequency</summary>
 
 1. и (and)
 
@@ -2760,15 +2725,12 @@ title: Most used Russian words for beginners
 
 20. пока (while)
 
-  </p>
 </details>
 
 ## 8. Interjections
 
 <details markdown=1>
-  <summary>Top 100 most used russian Interjections sorted by usage frequency</summary>
-  <p>
-
+<summary>Top 100 most used russian Interjections sorted by usage frequency</summary>
 
 1. да (yes)
 
@@ -2802,15 +2764,12 @@ title: Most used Russian words for beginners
 
 16. чё (what)
 
-  </p>
 </details>
 
 ## 9. Others
 
 <details markdown=1>
-  <summary>Most used Antonym adjective pairs in russian</summary>
-  <p>
-
+<summary>Most used Antonym adjective pairs in russian</summary>
 
 1. большой - маленький (big - small)
 
@@ -3012,13 +2971,10 @@ title: Most used Russian words for beginners
 
 100. сильный - слабый (strong - weak)
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used russian words about numbers and order sorted by usage frequency</summary>
-  <p>
-
+<summary>most used russian words about numbers and order sorted by usage frequency</summary>
 
 1. число (chislo) - number
 
@@ -3080,13 +3036,10 @@ title: Most used Russian words for beginners
 
 30. предыдущий (predydushchiy) - previous
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used russian words about time and date sorted by usage frequency</summary>
-  <p>
-
+<summary>most used russian words about time and date sorted by usage frequency</summary>
 
 1. время (vremya) - time
 
@@ -3148,13 +3101,10 @@ title: Most used Russian words for beginners
 
 30. январь (yanvar') - January
 
-  </p>
 </details>
 
 <details markdown=1>
-  <summary>most used russian words about question and answer sorted by usage frequency</summary>
-  <p>
-
+<summary>most used russian words about question and answer sorted by usage frequency</summary>
 
 1. вопрос (vopros) - question
 
@@ -3216,6 +3166,5 @@ title: Most used Russian words for beginners
 
 30. можно ли (mozhno li) - is it possible
 
-  </p>
 </details>
 

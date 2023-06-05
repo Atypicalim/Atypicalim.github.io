@@ -11,11 +11,11 @@ title: Most used Russian words for beginners
   <blockquote>
 
 
-1. человек (person)
+ 1. человек (person)
 
-2. время (time)
+ 2. время (time)
 
-3. год (year)
+ 3. год (year)
 
 4. дело (matter, business)
 

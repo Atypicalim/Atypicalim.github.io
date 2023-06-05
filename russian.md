@@ -7,7 +7,13 @@ title: Most used Russian words for beginners
 ### 1. Nouns
 
 <details>
-  <summary>Top 100 most used russian nouns sorted by usage frequency</summary>
+  <summary>Top 100 most used russian nouns sorted by usage frequency #### Markdown *in* `summary` </summary>
+
+#### Markdown *in* `details`
+
+<div>Have **fun div 1!**</div>
+
+<div markdown="1">Have **fun div 2!**</div>
 
 | RU |
 |--|

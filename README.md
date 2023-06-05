@@ -32,7 +32,7 @@
 
 ## Tools
 
-* [Poe](https://poe.com/Sage)
+* [Poe AI Chat](https://poe.com/Sage)
 
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)
 

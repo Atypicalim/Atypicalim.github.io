@@ -1,8 +1,8 @@
 ---
-title: Russian
+title: New Russian words for myself
 ---
 
-## Russian
+## New Russian words for myself
 
 * [2000 most common Russian words](https://commonlyusedwords.com/2000-most-common-Russian-words/)
 

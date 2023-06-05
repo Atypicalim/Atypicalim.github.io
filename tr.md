@@ -1,8 +1,8 @@
 ---
-title: Turkish
+title: New Turkish words for myself
 ---
 
-## Turkish
+## New Turkish words for myself
 
 * [2000 most common Turkish words](https://commonlyusedwords.com/2000-most-common-Turkish-words/)
 

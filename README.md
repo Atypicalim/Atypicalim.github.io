@@ -20,15 +20,19 @@
 
 ## Learning
 
-* [script to record new words easily](https://gist.github.com/kompasim/00335d5ea603a84c13a6be1d71a39997)
+* [script to record new words easily for windows](https://gist.github.com/kompasim/00335d5ea603a84c13a6be1d71a39997)
 
-* [Turkish](tr.md)
-* [Russian](ru.md)
-* [Spanish](es.md)
+* [New Turkish words for myself](tr.md)
+* [New Russian words for myself](ru.md)
+
+* [Most used Turkish words for beginners](turkish.md)
+* [Most used Russian words for beginners](russian.md)
 
 ---
 
 ## Tools
+
+* [Poe](https://poe.com/Sage)
 
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)
 

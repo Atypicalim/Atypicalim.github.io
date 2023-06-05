@@ -212,17 +212,12 @@ title: Most used Russian words for beginners
 </details>
 
 
-<details>
+<details markdown=1>
   <summary>more 100</summary>
-  <p markdown=1>
-
 
 101. масса (mass, weight)
-
 102. победа (victory, win)
-
 103. гость (guest)
-
 104. доллар (dollar)
 
 105. экран (screen)

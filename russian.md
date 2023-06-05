@@ -8,14 +8,11 @@ title: Most used Russian words for beginners
 
 <details>
   <summary>Top 100 most used russian nouns sorted by usage frequency</summary>
-  <blockquote>
 
 
- 1. человек (person)
-
- 2. время (time)
-
- 3. год (year)
+1. человек (person)
+2. время (time)
+3. год (year)
 
 4. дело (matter, business)
 
@@ -211,7 +208,6 @@ title: Most used Russian words for beginners
 
 100. матч (match)
 
-  </blockquote>
 </details>
 
 

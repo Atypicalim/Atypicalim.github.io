@@ -2773,7 +2773,7 @@ title: Most used Turkish words for beginners
 </details>
 
 <details markdown=1>
-<summary>most used turkish words about numbers and order sorted by usage frequency</summary>
+<summary>Words about numbers and order</summary>
 
 1. bir (one)
 
@@ -2828,7 +2828,7 @@ title: Most used Turkish words for beginners
 </details>
 
 <details markdown=1>
-<summary>most used turkish words about time and date sorted by usage frequency</summary>
+<summary>Words about time and date</summary>
 
 1. gün (day)
 
@@ -2893,7 +2893,7 @@ title: Most used Turkish words for beginners
 </details>
 
 <details markdown=1>
-<summary>most used turkish words about question and answer sorted by usage frequency</summary>
+<summary>Words about question and answer</summary>
 
 1. ne (what)
 

@@ -1,1241 +1,187 @@
 ---
-title: Most used Turkish words for beginners
+title: Turkish words for myself
 ---
 
-## Most used Turkish words for beginners
+## Turkish words for myself
 
 ### 1. Nouns
 
 <details markdown=1>
-<summary>Top 100 most used turkish nouns sorted by usage frequency</summary>
-
-1. insan - human
-
-2. zaman - time
-
-3. iş - work, job
-
-4. yer - place
-
-5. kişi - person
-
-6. hayat - life
-
-7. dünya - world
-
-8. ev - house, home
-
-9. para - money
-
-10. yıl - year
-
-11. sevgi - love
-
-12. su - water
-
-13. yol - road
-
-14. gün - day
-
-15. şey - thing
-
-16. adam - man, person
-
-17. sevgili - beloved
-
-18. soru - question
-
-19. anne - mother
-
-20. baba - father
-
-21. kitap - book
-
-22. işletme - business
-
-23. sorun - problem
-
-24. aşk - love
-
-25. insanlar - people
-
-26. ülke - country
-
-27. çocuk - child
-
-28. arkadaş - friend
-
-29. okul - school
-
-30. şirket - company
-
-31. müzik - music
-
-32. film - movie, film
-
-33. başarı - success
-
-34. sağlık - health
-
-35. hayvan - animal
-
-36. kadın - woman
-
-37. erkek - man
-
-38. kahve - coffee
-
-39. haber - news
-
-40. yemek - food
-
-41. sınav - exam
-
-42. öğrenci - student
-
-43. hava - weather, air
-
-44. işçi - worker
-
-45. seyahat - travel
-
-46. işyeri - workplace
-
-47. tatil - vacation, holiday
-
-48. çay - tea
-
-49. spor - sport
-
-50. müşteri - customer
-
-51. düşman - enemy
-
-52. çevre - environment
-
-53. aile - family
-
-54. insanlık - humanity
-
-55. sebep - reason, cause
-
-56. özgürlük - freedom
-
-57. devlet - state, government
-
-58. sağ - right, health
-
-59. sol - left
-
-60. aşama - stage, phase
-
-61. duygu - emotion, feeling
-
-62. çözüm - solution
-
-63. yükseköğrenim - higher education
-
-64. öz - essence, core
-
-65. güç - power, strength
-
-66. hatıra - memory
-
-67. toplum - society
-
-68. sefer - trip, journey
-
-69. yolculuk - journey, travel
-
-70. bilgi - information, knowledge
-
-71. ilgi - interest, attention
-
-72. durum - situation, status
-
-73. ayrıntı - detail
-
-74. mücadele - struggle, fight
-
-75. özür - apology, excuse
-
-76. özlem - longing, yearning
-
-77. sevinç - joy, happiness
-
-78. hizmet - service
-
-79. işlem - process, transaction
-
-80. laf - word, talk
-
-81. alışveriş - shopping
-
-82. çalışma - study, work
-
-83. amaç - goal, aim
-
-84. başlık - title, heading
-
-85. ciddiye - seriously
-
-86. dikkat - attention, care
-
-87. fark - difference
-
-88. fiyat - price
-
-89. zamanlama - timing
-
-90. karar - decision
-
-91. kıyafet - clothing, outfit
-
-92. kolaylık - convenience, ease
-
-93. kural - rule
-
-94. mektup - letter
-
-95. moral - morale
-
-96. müdür - manager, director
-
-97. olay - event, incident
-
-98. ölüm - death
-
-99. önem - importance
-
-100. özellik - feature
-
-</details>
-
-
-<details markdown=1>
-<summary>more 100</summary>
-
-1. adamakıllı - sensible, intelligent
-
-2. aday - candidate
-
-3. ağaç - tree
-
-4. ahir - barn, stable
-
-5. akıl - mind, intelligence
-
-6. akşam - evening
-
-7. alışkanlık - habit
-
-8. altın - gold
-
-9. an - moment, instance
-
-10. anahtar - key
-
-11. anı - memory, recollection
-
-12. araba - car
-
-13. aralık - gap, interval
-
-14. arama - search, inquiry
-
-15. arkadaşlık - friendship
-
-16. arzu - desire, wish
-
-17. asıl - main, original
-
-18. ata - ancestor, forefather
-
-19. ateş - fire
-
-20. ayrılık - separation, departure
-
-21. ayı - bear
-
-22. ayıp - shame, disgrace
-
-23. ayın - month
-
-24. ayrı - separate, distinct
-
-25. babayiğit - brave, courageous
-
-26. bacak - leg
-
-27. bahar - spring
-
-28. bahçe - garden
-
-29. balık - fish
-
-30. bana - to me
-
-31. banka - bank
-
-32. barış - peace
-
-33. basın - press, media
-
-34. baş - head
-
-35. başkan - president, chairman
-
-36. başlangıç - beginning, start
-
-37. bayan - lady, woman
-
-38. bayram - holiday, festival
-
-39. bazen - sometimes
-
-40. beden - body, physique
-
-41. bekleyiş - waiting, anticipation
-
-42. bela - trouble, nuisance
-
-43. belge - document, certificate
-
-44. bellilik - certainty, sureness
-
-45. bey - gentleman, sir
-
-46. beyaz - white
-
-47. beyin - brain
-
-48. beyler - gentlemen, sirs
-
-49. beylik - dominion, reign
-
-50. bez - cloth, fabric
-
-51. biber - pepper
-
-52. bilet - ticket
-
-53. bin - thousand
-
-54. bir - one
-
-55. biraz - a little, somewhat
-
-56. birden - suddenly, all at once
-
-57. birey - individual
-
-58. birinci - first, primary
-
-59. bitki - plant
-
-60. bölge - region, area
-
-61. börek - pastry, pie
-
-62. boşluk - emptiness, void
-
-63. boy - height, length
-
-64. boyun - neck
-
-65. boşver - never mind, forget it
-
-66. brifing - briefing
-
-67. bulut - cloud
-
-68. burun - nose
-
-69. bütün - whole, entire
-
-70. cahil - ignorant, uneducated
-
-71. cebir - algebra
-
-72. cehalet - ignorance
-
-73. cemaat - congregation, community
-
-74. cep - pocket
-
-75. cephe - front, facade
-
-76. cereyan - current, flow
-
-77. cesaret - courage, bravery
-
-78. ciddi - serious, grave
-
-79. cilalı - polished, shiny
-
-80. cins - kind, type
-
-81. çaba - effort, attempt
-
-82. çadır - tent
-
-83. çamaşır - laundry
-
-84. çanta - bag, purse
-
-85. çaresizlik - helplessness, despair
-
-86. çatı - roof, ceiling
-
-87. çek - check, draft
-
-88. çekiç - hammer
-
-89. çeviri - translation, interpretation
-
-90. çiçek - flower
-
-91. çift - pair, couple
-
-92. çikolata - chocolate
-
-93. çimento - cement
-
-94. çizgi - line, stripe
-
-95. çocukça - childish, immature
-
-96. çorap - sock
-
-97. çöp - garbage, trash
-
-98. dağ - mountain
-
-99. dakika - minute
-
-100. dalga - wave
-
-</details>
-
-<details markdown=1>
-<summary>more 100</summary>
-
-1. damar - vein, artery
-
-2. damga - stamp, seal
-
-3. darbe - coup, blow
-
-4. davet - invitation
-
-5. değişken - variable, changing
-
-6. değişim - change, exchange
-
-7. değişme - mutation, transformation
-
-8. deli - crazy, mad
-
-9. deneme - trial, experiment
-
-10. deniz - sea
-
-11. depo - warehouse, depot
-
-12. derinlik - depth
-
-13. dernek - association, society
-
-14. dersten - lesson
-
-15. deste - support, aid
-
-16. dev - giant, huge
-
-17. deve - camel
-
-18. devir - era, period
-
-19. dezavantaj - disadvantage
-
-20. diğer - other, another
-
-21. dikkatli - careful, attentive
-
-22. dil - language, tongue
-
-23. din - religion, faith
-
-24. dinlenme - rest, relaxation
-
-25. diş - tooth
-
-26. doğa - nature
-
-27. doğru - true, correct
-
-28. dolap - cupboard, closet
-
-29. dolu - full, crowded
-
-30. domuz - pig
-
-31. dondurma - ice cream
-
-32. dönem - period, term
-
-33. dönüşüm - conversion, transformation
-
-34. dört - four
-
-35. duvar - wall
-
-36. duyuru - announcement, notice
-
-37. düğün - wedding
-
-38. dükkan - shop, store
-
-39. dünyaevi - home, household
-
-40. düşük - low, inferior
-
-41. düzen - order, organization
-
-42. edebiyat - literature
-
-43. efendi - gentleman, master
-
-44. egoist - selfish, egotistical
-
-45. ekim - planting, cultivation
-
-46. ekonomi - economy
-
-47. eleman - element, member
-
-48. eleştiri - criticism, review
-
-49. elma - apple
-
-50. elveda - farewell, goodbye
-
-51. emek - labor, effort
-
-52. emlak - real estate, property
-
-53. emniyet - safety, security
-
-54. enerji - energy
-
-55. engel - obstacle, barrier
-
-56. enlem - latitude
-
-57. enteresan - interesting, curious
-
-58. envanter - inventory, list
-
-59. erişim - access, reach
-
-60. erkeklik - masculinity, manliness
-
-61. eş - spouse, partner
-
-62. eşya - item, article
-
-63. et - meat
-
-64. etkileşim - interaction, influence
-
-65. evde - at home
-
-66. evlenme - marriage, wedding
-
-67. evrim - evolution
-
-68. farkındalık - awareness, consciousness
-
-69. fatura - bill, invoice
-
-70. faul - foul
-
-71. felsefe - philosophy
-
-72. fikir - idea, opinion
-
-73. filmi - movie
-
-74. finans - finance
-
-75. firma - firm, company
-
-76. fis - receipt, ticket
-
-77. fırsat - opportunity, chance
-
-78. fiyasko - failure, fiasco
-
-79. fotoğraf - photograph, photo
-
-80. füze - missile, rocket
-
-81. futbol - football, soccer
-
-82. fırtına - storm, tempest
-
-83. garaj - garage
-
-84. gaz - gas
-
-85. gazete - newspaper
-
-86. gemi - ship, vessel
-
-87. genel - general, common
-
-88. gerçek - truth, reality
-
-89. gerilim - tension, suspense
-
-90. girişim - initiative, enterprise
-
-91. gizli - secret, hidden
-
-92. goller - goals
-
-93. gölge - shadow
-
-94. gösteri - show, performance
-
-95. gözlük - eyeglasses, glasses
-
-96. güçlü - strong, powerful
-
-97. güldürü - comedy, humor
-
-98. güneş - sun
-
-99. gündelik - daily, everyday
-
-100. gündüz - daytime, day
+<summary>words to memorize</summary>
+
+1. başarı - success
+2. sınav - exam
+3. çevre - environment
+4. özgürlük - freedom
+5. aşama - stage, phase
+6. çözüm - solution
+7. toplum - society
+8. ilgi - interest, attention
+9. durum - situation, status
+10. ayrıntı - detail
+11. mücadele - struggle, fight
+12. özlemek - miss
+13. laf - word, talk
+14. amaç - goal, aim
+15. kural - rule
+16. moral - morale
+17. olay - event, incident
+18. önem - importance
+19. özellik - feature
+20. aday - candidate
+21. alışkanlık - habit
+22. arama - search, inquiry
+23. barış - peace
+24. belge - document, certificate
+25. beyin - brain
+26. bez - cloth, fabric
+27. biber - pepper
+28. birey - individual
+29. bitki - plant
+30. börek - pastry, pie
+31. boşver - never mind, forget it
+32. cebir - algebra
+33. cep - pocket
+34. cephe - front, facade
+35. çaba - effort, attempt
+36. çamaşır - laundry
+37. çatı - roof, ceiling
+38. çek - check, draft
+39. çekiç - hammer
+40. çeviri - translation, interpretation
+41. çift - pair, couple
+42. çimento - cement
+43. çizgi - line, stripe
+44. çorap - sock
+45. dalga - wave
+46. damar - vein, artery
+47. darbe - coup, blow
+48. davet - invitation
+49. değişim - change, exchange
+50. dönüşüm - conversion, transformation
+51. deli - crazy, mad
+52. deneme - trial, experiment
+53. depo - storage
+54. derinlik - depth
+55. dernek - association, society
+56. dev - giant, huge
+57. dezavantaj - disadvantage
+58. diğer - other, another
+59. dinlenme - rest, relaxation
+60. doğa - nature
+61. dolap - cupboard, closet
+62. domuz - pig
+63. dondurma - ice cream
+64. dönem - period, term
+65. duvar - wall
+66. duyuru - announcement, notice
+67. düğün - wedding
+68. düşük - low, inferior
+69. düzen - order, organization
+70. egoist - selfish, egotistical
+71. eleştiri - criticism, review
+72. emlak - real estate, property
+73. emniyet - safety, security
+74. engel - obstacle, barrier
+75. enteresan - interesting, curious
+76. envanter - inventory, list
+77. eş - spouse, partner
+78. etkileşim - interaction, influence
+79. evrim - evolution
+80. farkındalık - awareness, consciousness
+81. fatura - bill, invoice
+82. finans - finance
+83. fırtına - storm, tempest
+84. garaj - garage
+85. genel - general, common
+86. gizli - secret, hidden
+87. gölge - shadow
 
 </details>
 
 ### 2. Verbs
 
 <details markdown=1>
-<summary>Top 100 most used turkish verbs sorted by usage frequency</summary>
-
-1. yapmak - to do, make
-
-2. etmek - to do, make (alternative form)
-
-3. olmak - to be, become
-
-4. gitmek - to go
-
-5. gelmek - to come
-
-6. vermek - to give
-
-7. almak - to take
-
-8. görmek - to see
-
-9. istemek - to want, desire
-
-10. bulmak - to find
-
-11. söylemek - to say, tell
-
-12. çalışmak - to work
-
-13. yemek - to eat
-
-14. yapılması - to be done
-
-15. etkilemek - to affect, influence
-
-16. etmektedir - is doing, making
-
-17. devam etmek - to continue
-
-18. beklemek - to wait
-
-19. başlamak - to start, begin
-
-20. anlamak - to understand
-
-21. düşünmek - to think
-
-22. verilmek - to be given
-
-23. yapmış - has done, made
-
-24. kalmak - to stay, remain
-
-25. yapılabilir - can be done, feasible
-
-26. sormak - to ask
-
-27. gelmiş - has come
-
-28. yaşamak - to live
-
-29. olacak - will be, will happen
-
-30. yapılacak - will be done, will happen
-
-31. yapılır - is done, made (passive)
-
-32. yer almak - to take place, be located
-
-33. yapabilir - can do, able to do
-
-34. yapacak - will do, going to do
-
-35. çalıştırmak - to employ, hire
-
-36. yapılmalı - should be done, ought to be done
-
-37. yapılması gereken - what should be done
-
-38. yapmamak - to not do, avoid
-
-39. karar vermek - to decide
-
-40. bakmak - to look, watch
-
-41. yapılabilen - can be done, possible
-
-42. yapmıştı - had done, made
-
-43. gelir - comes, earns
-
-44. açmak - to open
-
-45. yapacağım - I will do, I am going to do
-
-46. öğrenmek - to learn
-
-47. yapacağız - we will do, we are going to do
-
-48. yapar - does, makes
-
-49. katılmak - to attend, participate
-
-50. yapılmalıdır - should be done, ought to be done (passive)
-
-51. yapacaksın - you will do, you are going to do
-
-52. yapılabilirdi - could have been done, feasible (past tense)
-
-53. yapılırsa - if done, if made
-
-54. yapılabilmesi - possibility of being done
-
-55. bulunmak - to be found, exist
-
-56. yapabilirim - I can do, I am able to do
-
-57. yapılabilirdiği - feasibility of being done
-
-58. yapılacaklar - things to be done
-
-59. yapılabilirliği - feasibility of being done
-
-60. yapmamalı - should not do, ought not to do
-
-61. yapma - don't do, do not make
-
-62. yapılabilmesini - possibility of being done (accusative)
-
-63. yapacaklar - they will do, they are going to do
-
-64. yapmadan - without doing, without making
-
-65. yapılıp - being done, being made (passive)
-
-66. yapılabilirlik - feasibility, possibility of being done
-
-67. yapabildiğiniz - what you can do, what you are able to do
-
-68. yapmamalısın - you should not do, you ought not to do
-
-69. yapılması gerekenler - things that should be done, tasks
-
-70. yapabildiği - what he/she can do, what he/she is able to do
-
-71. yapabilecek - will be able to do
-
-72. yapamayacak - will not be able to do
-
-73. yapacağını - what you will do, what you are going to do (accusative)
-
-74. yapabiliyorum - I can do, I am able to do (present tense)
-
-75. yapamıyorum - I cannot do, I am not able to do (present tense)
-
-76. yapılabilmesinin - possibility of being done (genitive)
-
-77. yapılabilmesine - possibility of being done (dative)
-
-78. yapabilirdim - I could have done, I would have been able to do (past tense)
-
-79. yaparsın - you do, you make (informal)
-
-80. yapılacaklar listesi - to-do list
-
-81. yapmayın - do not do, do not make (plural or formal)
-
-82. yapılırken - while being done, while being made (passive)
-
-83. yapılmasında - in the making, in the doing
-
-84. yapacağımız - what we will do, what we are going to do (accusative)
-
-85. yapılabilirliğini - feasibility of being done (accusative)
-
-86. yapamayacaklar - they will not be able to do
-
-87. yapılabilmesinde - in the feasibility of being done
-
-88. yapamazsın - you cannot do, you are not able to do (informal)
-
-89. yapabilecekler - those who will be able to do
-
-90. yapamayacağı - what he/she will not be able to do
-
-91. yapmayalım - let's not do, let's not make
-
-92. yapamayız - we cannot do, we are not able to do
-
-93. yapmaktan - from doing, from making
-
-94. yapmayacak - will not do, will not make
-
-95. yapılırkenki - the one being done, the one being made (passive)
-
-96. yapamamak - inability to do, inability to make
-
-97. yapabilecekleriniz - what you will be able to do, what you are able to do (plural)
-
-98. yaparız - we do, we make
-
-99. yaparsınız - you do, you make (formal)
-
-100. yapabildikleri - what they can do, what they are able to do
-
-</details>
-
-<details markdown=1>
-<summary>more 100</summary>
-
-1. ölmek - to die
-
-2. yapılmış - has been done, has been made (passive)
-
-3. yapılacak - to be done, to be made (future)
-
-4. yapılması lazım - needs to be done, should be done (passive)
-
-5. yapılabilir olmak - to be feasible, to be possible (passive)
-
-6. yapılmalıydı - should have been done, ought to have been done (past tense)
-
-7. yapılabilirdiği düşünülmüştü - it was thought to be feasible (past tense)
-
-8. yapamaz - cannot do, cannot make (third person singular)
-
-9. yapacak - going to do, will do (third person singular)
-
-10. yapıyor - is doing, is making (third person singular)
-
-11. yapalım - let's do, let's make (first person plural)
-
-12. yapabileceğim - I can do, I am able to do (first person singular)
-
-13. yapmıştı - had done, had made (third person singular)
-
-14. bekleyebilirsiniz - you can wait (second person plural)
-
-15. bekletmek - to make someone wait, to delay
-
-16. kullanmak - to use, utilize
-
-17. öğretmek - to teach
-
-18. düşmek - to fall, drop
-
-19. açıklamak - to explain, clarify
-
-20. düzenlemek - to arrange, organize
-
-21. kalmamak - to not stay, to not remain
-
-22. bilmek - to know
-
-23. özlemek - to miss, yearn for
-
-24. savunmak - to defend, advocate
-
-25. sürmek - to continue, last
-
-26. düşündürmek - to make one think, to give food for thought
-
-27. özetlemek - to summarize
-
-28. kaybetmek - to lose
-
-29. uğramak - to visit, stop by
-
-30. tamamlamak - to complete, finish
-
-31. ilgilenmek - to be interested in, to take care of
-
-32. başarmak - to succeed, accomplish
-
-33. belirtmek - to indicate, state
-
-34. hazırlamak - to prepare, make ready
-
-35. izlemek - to watch, follow
-
-36. katılmamak - to not attend, to not participate
-
-37. ödemek - to pay
-
-38. sağlamak - to provide, ensure
-
-39. yararlanmak - to benefit from, take advantage of
-
-40. yetmek - to suffice, be enough
-
-41. ağlamak - to cry
-
-42. bulundurmak - to keep, have
-
-43. çıkmak - to go out, exit
-
-44. düşünmemek - to not think
-
-45. etkileşime girmek - to interact
-
-46. fark etmek - to notice, realize
-
-47. geçmek - to pass, go by
-
-48. hatırlamak - to remember, recall
-
-49. ilerlemek - to progress, advance
-
-50. karşılaşmak - to come across, encounter
-
-51. konuşmak - to speak, talk
-
-52. ödeşmek - to pay back, settle accounts
-
-53. seçmek - to choose, select
-
-54. taşımak - to carry, transport
-
-55. vurmak - to hit, strike
-
-56. yararlanılmak - to be benefited from, to be taken advantage of (passive)
-
-57. yatmak - to lie down, go to bed
-
-58. yürümek - to walk
-
-59. ayrılmak - to leave, depart
-
-60. başlamış - has started, has begun (past tense)
-
-61. beklememiş - did not wait (past tense)
-
-62. bilmiyorum - I don't know
-
-63. bulunmuş - has been found, has been located (passive)
-
-64. devam ediyor - is continuing, still ongoing (present continuous)
-
-65. düzenlenmiş - has been arranged, has been organized (passive)
-
-66. etkilendim - I was affected (past tense)
-
-67. gelmemiş - has not come (past tense)
-
-68. göstermek - to show, display
-
-69. hatırlatmak - to remind
-
-70. ilgi göstermek - to show interest, care
-
-71. istifade etmek - to benefit from, take advantage of (formal)
-
-72. kabul etmek - to accept, acknowledge
-
-73. kapatmak - toclose, shut
-
-74. kaçmak - to run away, escape
-
-75. kaynaklanmak - to stem from, originate from
-
-76. keşfetmek - to discover, explore
-
-77. korkmak - to be afraid, scared
-
-78. kurmak - to establish, set up
-
-79. kurtarmak - to save, rescue
-
-80. öne çıkmak - to stand out, be prominent
-
-81. özgürleştirmek - to liberate, free
-
-82. özlemle anmak - to remember fondly, reminisce
-
-83. özveri göstermek - to show selflessness, sacrifice
-
-84. planlamak - to plan, schedule
-
-85. sevindirmek - to make happy, delight
-
-86. sonuçlandırmak - to conclude, finalize
-
-87. söylemek - to say, tell
-
-88. süslemek - to decorate, adorn
-
-89. tahmin etmek - to estimate, predict
-
-90. takip etmek - to follow, track
-
-91. tamir etmek - to repair, fix
-
-92. tanışmak - to meet, get acquainted
-
-93. tartışmak - to argue, debate
-
-94. teşvik etmek - to encourage, motivate
-
-95. toplamak - to gather, collect
-
-96. uymak - to comply, adhere
-
-97. uyumak - to sleep
-
-98. varmak - to arrive, reach
-
-99. yaklaşmak - to approach, come near
-
-100. zorlamak - to force, compel
-
-</details>
-
-<details markdown=1>
-<summary>more 100</summary>
-
-1. almak - to take, buy
-
-2. anlamak - to understand, comprehend
-
-3. aramak - to search for, look for
-
-4. aşmak - to overcome, surpass
-
-5. başlamak - to start, begin
-
-6. beklemek - to wait, await
-
-7. bilgi vermek - to inform, give information
-
-8. bulmak - to find, discover
-
-9. çalışmak - to work
-
-10. değiştirmek - to change, alter
-
-11. dinlemek - to listen, hear
-
-12. düşünmek - to think, ponder
-
-13. geçirmek - to spend (time), experience
-
-14. getirmek - to bring, fetch
-
-15. gitmek - to go, travel
-
-16. görmek - to see, perceive
-
-17. gülmek - to laugh
-
-18. hazırlanmak - to get ready, prepare oneself
-
-19. katılmak - to participate, join
-
-20. kelimeleri karıştırmak - to mix up words
-
-21. kırmak - to break, shatter
-
-22. korkutmak - to scare, frighten
-
-23. kurtulmak - to get rid of, escape from
-
-24. kızmak - to get angry, be angry
-
-25. öğrenmek - to learn, find out
-
-26. öpmek - to kiss
-
-27. özlem duymak - to feel homesick, miss
-
-28. sevilmek - to be loved
-
-29. söylemek istemek - to want to say, to feel like saying
-
-30. tamam olmak - to be okay, to be all right
-
-31. tanıtmak - to introduce, present
-
-32. temizlemek - to clean, tidy up
-
-33. unutmak - to forget
-
-34. uyandırmak - to wake up, rouse
-
-35. uyarılmak - to be warned, cautioned (passive)
-
-36. uymak zorunda kalmak - to have to comply, be forced to adhere
-
-37. var olmak - to exist, be present
-
-38. vermek - to give
-
-39. yemek yemek - to eat
-
-40. yenmek - to defeat, conquer
-
-41. yıkmak - to demolish, destroy
-
-42. yıldız olmak - to become a star
-
-43. yıpranmak - to wear out, be worn out (passive)
-
-44. yürütmek - to execute, carry out
-
-45. zaman geçmek - time passes
-
-46. zamanlamak - to time, schedule
-
-47. zengin olmak - to become rich
-
-48. zor olmak - to be difficult, hard
-
-49. adlandırmak - to name, label
-
-50. aile kurmak - to start a family
-
-51. akıllı olmak - to be smart, intelligent
-
-52. alışmak - to get used to, become accustomed to
-
-53. anlaşmak - to agree, come to an agreement
-
-54. arkadaş edinmek - to make friends
-
-55. arzu etmek - to desire, wish for
-
+<summary>words to memorize</summary>
+
+1. bulmak - to find
+2. etkilemek - to affect, influence
+3. anlamak - to understand
+4. düşünmek - to think
+5. yapmamak - to not do, avoid
+6. yapılabilen - can be done, possible
+7. yapılabilmesi - possibility of being done
+8. düzenlemek - to arrange, organize
+9. kalmamak - to not stay, to not remain
+10. savunmak - to defend, advocate
+11. sürmek - to continue, last
+12. özetlemek - to summarize
+13. uğramak - to visit, stop by
+14. ilgilenmek - to be interested in, to take care of
+15. başarmak - to succeed, accomplish
+16. belirtmek - to indicate, state
+17. izlemek - to watch, follow
+18. ödemek - to pay
+19. yararlanmak - to benefit from, take advantage of
+20. bulundurmak - to keep, have
+21. etkileşime girmek - to interact
+22. ilerlemek - to progress, advance
+23. ödeşmek - to pay back, settle accounts
+24. seçmek - to choose, select
+25. taşımak - to carry, transport
+26. ilgi göstermek - to show interest, care
+27. istifade etmek - to benefit from, take advantage of
+28. kaynaklanmak - to stem from, originate from
+29. keşfetmek - to discover, explore
+30. öne çıkmak - to stand out, be prominent
+31. özgürleştirmek - to liberate, free
+32. özlemle anmak - to remember fondly, reminisce
+33. özveri göstermek - to show selflessness, sacrifice
+34. sonuçlandırmak - to conclude, finalize
+35. süslemek - to decorate, adorn
+36. tamir etmek - to repair, fix
+37. teşvik etmek - to encourage, motivate
+38. uymak - to comply, adhere
+39. uymak - to sleep
+40. yaklaşmak - to approach, come near
+41. aramak - to search for, look for
+42. bilgi vermek - to inform, give information
+43. değiştirmek - to change, alter
+44. getirmek - to bring, fetch
+45. kelimeleri karıştırmak - to mix up words
+46. öpmek - to kiss
+47. özlem duymak - to feel homesick, miss
+48. temizlemek - to clean, tidy up
+49. uyarılmak - to be warned, cautioned
+50. yenmek - to defeat, conquer
+51. yıpranmak - to wear out, be worn out
+52. yürütmek - to execute, carry out
+53. adlandırmak - to name, label
+54. alışmak - to get used to, become accustomed to
+55. arkadaş edinmek - to make friends
 56. ayrı olmak - to be separate, be apart
-
-57. beklememek - to not wait (negative)
-
-58. belirlemek - to determine, set
-
-59. benzemek - to resemble, look like
-
-60. bitmek - to finish, end
-
-61. bozulmak - to be spoiled, go bad (passive)
-
-62. buluşmak - to meet up, rendezvous
-
-63. cevap vermek - to answer, respond
-
-64. çıkmamak - to not go out, not exit
-
-65. çözmek - to solve, resolve
-
-66. danışmak - to consult, ask for advice
-
-67. dayanmak - to endure, withstand
-
-68. düşürmek - to drop, lower
-
-69. emretmek - to order, command
-
-70. farklı olmak - to be different, be distinct
-
-71. fotoğraf çekmek - to take a photo, take a picture
-
-72. güvenmek - to trust, have faith in
-
-73. halletmek - to handle, take care of
-
-74. hatırlamamak - to forget (negative)
-
-75. hedeflemek - to target, aim for
-
-76. işe girmek - to start a job, begin working
-
-77. izin vermek - to permit, allow
-
-78. kaçırmak - to miss, to fail to catch79. karar vermek - to make a decision
-
-80. katlanmak - to endure, tolerate
-
-81. kaybetmemek - to not lose (negative)
-
-82. kıyafet giymek - to wear clothes
-
-83. kıyaslamak - to compare, contrast
-
-84. konuşamamak - to be unable to speak (negative)
-
-85. korkusuz olmak - to be fearless, brave
-
-86. kurtarmamak - to not save, not rescue (negative)
-
-87. kurtulmamak - to not get rid of, not escape from (negative)
-
-88. küçük olmak - to be small, be little
-
-89. memnun etmek - to satisfy, please
-
-90. merak etmek - to be curious, wonder
-
-91. mutlu etmek - to make happy, please
-
-92. öfkelendirmek - to anger, make someone angry
-
-93. öğretmen olmak - to become a teacher
-
-94. özür dilemek - to apologize
-
-95. rahatlamak - to relax, feel at ease
-
-96. reddetmek - to reject, refuse
-
-97. sahip olmak - to have, possess
-
-98. sevgi göstermek - to show love, affection
-
-99. şaşırmak - to be surprised, amazed
-
-100. yemeğe çıkmak - to go out to eat, dine out
+57. belirlemek - to determine, set
+58. benzemek - to resemble, look like
+59. buluşmak - to meet up, rendezvous
+60. çözmek - to solve, resolve
+61. danışmak - to consult, ask for advice
+62. dayanmak - to endure, withstand
+63. emretmek - to order, command
+64. güvenmek - to trust, have faith in
+65. halletmek - to handle, take care of
+66. hedeflemek - to target, aim for
+67. izin vermek - to permit, allow
+68. işe girmek - to start a job, begin working
+69. katlanmak - to endure, tolerate
+70. kıyafet giymek - to wear clothes
+71. kıyaslamak - to compare, contrast
+72. merak etmek - to be curious, wonder
+73. öfkelendirmek - to anger, make someone angry
+74. reddetmek - to reject, refuse
+75. şaşırmak - to be surprised, amazed
 
 </details>
+
 
 ### 3. Adjectives
 

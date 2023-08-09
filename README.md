@@ -44,6 +44,8 @@
 
 * [PowerShell to EXE converter](https://ps2exe.azurewebsites.net/)
 
+* [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+
 ---
 
 ## Collections

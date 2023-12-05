@@ -38,6 +38,8 @@
 
 * [Lua for Windows](https://github.com/rjpcomputing/luaforwindows)
 
+* [Lua to executables](https://www.tutorialspoint.com/how-to-create-standalone-lua-executables)
+
 * [Netease Cloud Music](https://neteasecloudmusicapi.vercel.app/#/)
 
 * [Spleeter](https://github.com/deezer/spleeter) | [SpleeterGui]([git@github.com:boy1dr/SpleeterGui.git](https://github.com/boy1dr/SpleeterGui))

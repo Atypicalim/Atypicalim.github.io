@@ -66,6 +66,8 @@
 
 * [Write your Virtual DOM 2: Props & Events](https://medium.com/@deathmood/write-your-virtual-dom-2-props-events-a957608f5c76)
 
+* [A Guide to Reading VanJS Codebase](https://vanjs.org/about#source-guide)
+
 ### 3. server-side
 
 * [Let’s Build A Web Server](https://ruslanspivak.com/lsbaws-part1/)

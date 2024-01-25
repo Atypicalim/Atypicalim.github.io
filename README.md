@@ -24,7 +24,6 @@
 
 * [New Turkish words for myself](tr.md)
 * [New Russian words for myself](ru.md)
-
 * [Most used Turkish words for beginners](turkish.md)
 * [Most used Russian words for beginners](russian.md)
 

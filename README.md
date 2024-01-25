@@ -89,6 +89,7 @@
 ## Snippets
 
 * JavaScript Proxy for function
+
 ```javascript
 let tags = new Proxy((name, ...args) => {
     return `<${name}>${args}</${name}>`;

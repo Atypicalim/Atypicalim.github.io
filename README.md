@@ -86,6 +86,24 @@
 
 ---
 
+## Snippets
+
+* JavaScript Proxy for function
+```javascript
+let tags = new Proxy((name, ...args) => {
+    return `<${name}>${args}</${name}>`;
+}, {
+    get: (target, name) => {
+        return target.bind(null, name);
+    }
+})
+const {div} = tags;
+console.log(tags("div", "content...")); // <div>content...</div>
+console.log(div("content...")); // <div>content...</div>
+```
+
+---
+
 <script src="https://giscus.app/client.js"
         data-repo="kompasim/kompasim.github.io"
         data-repo-id="R_kgDOH1aiUQ"

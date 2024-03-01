@@ -47,6 +47,8 @@
 
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
+* [Dependencies](https://github.com/lucasg/Dependencies)
+
 ---
 
 ## Collections

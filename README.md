@@ -31,8 +31,6 @@
 
 ## Tools
 
-* [Poe AI Chat](https://poe.com/Sage)
-
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)
 
 * [Lua for Windows](https://github.com/rjpcomputing/luaforwindows)
@@ -48,6 +46,16 @@
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 * [Dependencies](https://github.com/lucasg/Dependencies)
+
+---
+
+## AI
+
+* [Poe AI Chat](https://poe.com/Sage)
+* [AI Image Generator](https://aiimagegenerator.io/)
+* [AI Remove Background](https://removebg.one/)
+* [upscale low resolution images](https://www.upscayl.org/)
+* [AI Video Generator](https://reccloud.cn/)
 
 ---
 

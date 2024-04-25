@@ -11,10 +11,9 @@
 
 * [github](https://github.com/kompasim)
 * [blog](https://kompasim.github.io)
-* [python](https://pypi.org/user/kompasim/)
+* [pip](https://pypi.org/user/kompasim/)
+* [npm](https://www.npmjs.com/~kompasim)
 * [vscode](https://marketplace.visualstudio.com/publishers/kompasim)
-* [kirguzguch](https://kompasim.github.io/others/kirguzguch.html)
-* [fontlar](https://gitee.com/kompasim/fontlar)
 
 ---
 
@@ -46,6 +45,14 @@
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 * [Dependencies](https://github.com/lucasg/Dependencies)
+
+---
+
+## Packages
+
+* [How to Publish NPM Package](https://www.freecodecamp.org/news/how-to-create-and-publish-your-first-npm-package/)
+
+* [How to Publish PIP Package](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 
 ---
 

@@ -38,7 +38,7 @@
 
 * [Netease Cloud Music](https://neteasecloudmusicapi.vercel.app/#/)
 
-* [Spleeter](https://github.com/deezer/spleeter) | [SpleeterGui]([git@github.com:boy1dr/SpleeterGui.git](https://github.com/boy1dr/SpleeterGui))
+* [Spleeter](https://github.com/deezer/spleeter) | [SpleeterGui](https://github.com/boy1dr/SpleeterGui)
 
 * [PowerShell to EXE converter](https://ps2exe.azurewebsites.net/)
 

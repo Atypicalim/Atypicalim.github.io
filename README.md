@@ -30,6 +30,8 @@
 
 ## Tools
 
+* [Qol kondurush meshiqi](https://kompasim.github.io/others/kirguzguch.html)
+
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)
 
 * [Lua for Windows](https://github.com/rjpcomputing/luaforwindows)

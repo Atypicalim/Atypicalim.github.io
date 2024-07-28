@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script type="text/javascript" origin_file="./../pure-js-tools/tools.js">
+// file:constants 2024-07-24T16:27:33.138Z
+
+
+let ALL_HTML_TAGA = [
+    'head', 'title', 'base', 'link', 'meta', 'script', 'style',
+    'div',
+    'span',
+    'p',
+    'br', 'hr',
+    'b', 'strong', 'i', 'em', 'mark', 'small', 'del', 'ins', 'sub', 'sup',
+    'code', 'kbd', 'samp', 'var', 'pre',
+    'abbr', 'address', 'bdo', 'blockquote', 'cite', 'q',
+    'a',
+    'button',
+    'img', 'map', 'area', 'picture',
+    'audio', 'video', 'source', 'track',
+    'canvas',
+    'svg',
+    'iframe',
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+    'ul', 'ol', 'li', 'dl', 'dt', 'dd',
+    'table', 'tbody', 'tfoot', 'thead', 'th', 'tr', 'td', 'col', 'colgroup', 'caption',
+    "form", "input", "output", "button", "label", "textarea", "select", "option",
+    "fieldset", "legend", "optgroup", "datalist", "keygen",
+];
+// file:javascript 2024-07-24T16:27:33.138Z
+
+let is_nil = (val) => val == null;
+
+let is_num = (val) => typeof val == 'number';
+
+let is_bol = (val) => typeof val == 'boolean';
+
+let is_str = (val) => typeof val == 'string';
+
+let is_fun = (val) => typeof val == 'function';
+
+let is_dom = (val) => val instanceof Node;
+
+let is_arr = (val) => Array.isArray(val);
+
+let is_object = (val) => typeof val == 'object' && !is_arr(val) && !is_dom(val);
+
+let is_simple = (val) => is_nil(val) || is_num(val) || is_bol(val) || is_str(val);
+
+let assert = (val, msg) => { if (!val) throw new Error(`${msg}`); }
+
+let error = (msg) => {throw new Error(`${msg}`)};
+
+let warn = (...args) => {console.warn(...args)};
+
+let log = (...args) => {console.log(...args)};
+
+let to_str = (val) => is_str(val) ? val : JSON.stringify(val);
+
+let ar_str =(val, separator) => val.flat().join(separator);
+
+let is_valid_text = (val) => typeof val === 'string' && val !== '';
+
+let upper_first_char = (val) =>  val.charAt(0).toUpperCase() + val.slice(1);
+
+let lower_first_char = (val) =>  val.charAt(0).toLowerCase() + val.slice(1);
+
+// file:query 2024-07-24T16:27:33.139Z
+
+/**
+ * simple node tool 
+ * @returns selector func
+ */
+
+ var query2selector = function() {
+    "use strict";
+    var parent = {};
+    function _html2node(html) {
+        if (html == undefined) return null;
+        const div = document.createElement('div');
+        div.innerHTML = html;
+        return div.firstChild;
+    }
+    function _nodes2obj(nodes) {
+        var obj = {};
+        obj._nodes = nodes;
+        obj.__proto__ = parent;
+        return obj;
+    }
+    parent.size = function() {
+        return this._nodes.length;
+    }
+    parent.each = function(fn) {
+        for(var i = 0 ;i< this._nodes.length; i++){
+            fn(i, this._nodes[i]);
+        }
+        return this;
+    }
+    parent.class = function(name) {
+        var results = [];
+        this.each(function(i, node) {
+            if(name != undefined) node.className = name;
+            results.push(node.className);
+        })
+        return results;
+    }
+    parent.addClass = function(name) {
+        name = name.replace(/ +/g, ' ');
+        this.each(function(i, node) {
+            var oldClass = node.className.replace(/ +/g, ' ');
+            var newClass = oldClass + " " + name;
+            node.className = newClass.replace(/ +/g, ' ');;
+        })
+    }
+    parent.hasClass = function(name) {
+        name = name.replace(/ +/g, ' ');
+        var results = [];
+        var reg = new RegExp("\\b" + name + "\\b", "gi");
+        this.each(function(i, node) {
+            var className = node.className;
+            results.push(reg.test(className));
+        })
+        return results;
+    }
+    parent.delClass = function(name) {
+        name = name.replace(/ +/g, ' ');
+        var reg = new RegExp("\\b" + name + "\\b", "gi");
+        this.each(function(i, node) {
+            var oldClass = node.className.replace(/ +/g, ' ');
+            var newClass = oldClass.replace(reg, " ");
+            node.className = newClass.replace(/ +/g, ' ');
+        })
+    }
+    parent.style = function(name, value, priority) {
+        var results = [];
+        this.each(function(i, node) {
+            if (value === null) {
+                node.style.removeProperty(name);
+            } else if (value != undefined) {
+                node.style.setProperty(name, value, priority);
+            }
+            results.push(node.style[name]);
+        })
+        return results;
+    }
+    parent.attr = function(name, value) {
+        var results = [];
+        this.each(function(i, node) {
+            if (value === null) {
+            node.removeAttribute(name);
+            } else if (value != undefined) {
+                node.setAttribute(name, value);
+            }
+            results.push(node.getAttribute(name));
+        })
+        return results;
+    }
+    parent.html = function(html) {
+        var results = [];
+        this.each(function(i, node) {
+            if (html != undefined) node.innerHTML = html;
+            results.push(node.innerHTML);
+        })
+        return results;
+    }
+    parent.append = function(html) {
+        this.each(function(i, node) {
+            const element = _html2node(html);
+            if (element != null) node.appendChild(element);
+        })
+    }
+    parent.prepend = function(html) {
+        this.each(function(i, node) {
+            const element = _html2node(html);
+            if (element != null) node.insertBefore(element, node.firstChild);
+        })
+    }
+    parent.after = function(html) {
+        this.each(function(i, node) {
+            const element = _html2node(html);
+            if (element != null) node.parentNode.insertBefore(element, node.nextSibling);
+        })
+    }
+    parent.before = function(html) {
+        this.each(function(i, node) {
+            const element = _html2node(html);
+            if (element != null) node.parentNode.insertBefore(element, node);
+        })
+    }
+    parent.nodes = function() {
+        return this._nodes;
+    }
+    parent.delete = function() {
+        this.each(function(i, node) {
+            node.parentNode.removeChild(node);
+        })
+    }
+    parent.text = function(text) {
+        var results = [];
+        this.each(function(i, node) {
+            if (text != undefined) node.textContent = text;
+            results.push(node.textContent);
+        })
+        return results;
+    }
+    parent.value = function(value) {
+        return this.attr("value", value);
+    }
+    parent.listen = function(name, fn) {
+        this.each(function(i, node) {
+            var listenerTag = '__my_listener_for_' + name
+            var oldListener = node[listenerTag]
+            if (oldListener != undefined) {
+                node.removeEventListener(name, oldListener);
+                node[listenerTag] = undefined;
+            }
+            if (fn != undefined && fn != null) {
+                var newListener = function(event) {
+                    fn(i, node, event);
+                };
+                node[listenerTag] = newListener;
+                node.addEventListener(name, newListener)
+            }
+        })
+    }
+    var selector = function() {
+        var nodes = [];
+        for(var i=0; i <arguments.length; i++) {
+            var argument = arguments[i];
+            var r = document.querySelectorAll(argument);
+            for (var j = 0; j < r.length; j++) {
+                nodes.push(r[j]);
+            }
+        }
+        return _nodes2obj(nodes);
+    }
+    return selector;
+}
+
+// file:state 2024-07-24T16:27:33.139Z
+
+/**
+ * simple state tool 
+ * @returns selector func
+ */
+
+
+ let State = function() {
+
+    const nilptr = {};
+    const SMPLKY = "__";
+    const protoPrx = {p: true};
+    const protoRcd = {r: true};
+   
+   let __state = (listener) => {
+       // 
+       if (!listener) listener = () => {};
+       // 
+       let is_func = (val) => typeof val == "function";
+       let is_bool = (val) => typeof val == "boolean";
+       let is_nill = (val) => val == null;
+       let assert = (val, msg) => { if (!val) throw new Error(msg) };
+       // 
+       return (initial, callback) => {
+           //
+           assert(is_nill(callback) || is_func(callback), 'invalid callback for State');
+           //
+           let record = null;
+           const target = () => {};
+           const triggr = (isWrite, key) => callback != null ? callback(isWrite, key) : listener(proxy, isWrite, key);
+           const isPrx = (val) => val != null && Object.getPrototypeOf(val) == protoPrx;
+           const isRcd = (val) => val != null && Object.getPrototypeOf(val) == protoRcd;
+           //
+           const read = (key, pure) => {
+               let val = key != SMPLKY ? record[key] : record;
+               return pure ? encode(val) : val;
+           }
+           const write = (key, value) => {
+               if (key == SMPLKY) {
+                   record[SMPLKY] = value;
+               } else if (is_simple(value) && isPrx(record[key])) {
+                   record[key][SMPLKY] = value;
+               } else {
+                   record[key] = __state()(value, null, (b, k) => triggr(b, k != SMPLKY ? key + "." + k : key));
+               }
+           }
+           const decode = (data) => {
+               record = {[SMPLKY]: nilptr};
+               Object.setPrototypeOf(record, protoRcd);
+               if (!is_object(data)) {
+                   write(SMPLKY, data);
+               } else {
+                   Object.keys(data).forEach(key => write(key, data[key]));
+               }
+           }
+           const encode = (value) => {
+               if (isPrx(value)) return value();
+               if (!isRcd(value)) return value;
+               if (value[SMPLKY] != nilptr) return value[SMPLKY];
+               let data = {};
+               Object.keys(value).forEach((key) => {
+                   let val = value[key];
+                   if (key != SMPLKY) data[key] = (isPrx(val) ? val(null, true) : val);
+               });
+               return data;
+           }
+           // 
+           const handler = {
+               has(_, key) {
+                   return key in target;
+               },
+               get(_, key, receiver) {
+                   let val = read(key, false);
+                   return val;
+               },
+               set(_, key, value) {
+                   write(key, value);
+                   triggr(true, key);
+               },
+               apply(_, thisArg, arguments) {
+                   if (arguments[0] != null) {
+                       decode(arguments[0]);
+                       triggr(true, SMPLKY);
+                   } else {
+                       let val = read(SMPLKY, true);
+                       if (!arguments[1]) triggr(false, SMPLKY);
+                       return val;
+                   }
+               },
+           };
+           //
+           const proxy = new Proxy(target, handler);
+           Object.setPrototypeOf(proxy, protoPrx);
+           decode(initial);
+           return proxy;
+       }
+   }
+
+   return new Proxy(function() {}, {
+       apply(_, thisArg, args) {
+           return __state(null)(...args);
+       },
+       construct(target, args) {
+           if (args.length != 1 || typeof args[0] != 'function') throw new Error('invalid listener for State');
+           return __state(args[0]);
+       },
+   });
+   
+}()
+
+// file:template 2024-07-24T16:27:33.139Z
+
+/**
+ * https://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line
+ * simple template renderer
+ * @param {*} html 
+ * @returns renderer func
+ */
+
+var template2renderer = function(html) {
+    var re = /<%([^%>]+)?%>/g;
+    var reExp = /(^( )?(if|for|else|switch|case|break|{|}))(.*)?/g;
+    var code = 'var r=[];\\n';
+    var cursor = 0
+    var match;
+    var add = function(line, js) {
+        if (js) {
+            code += line.match(reExp) ? line + '\\n' : 'r.push(' + line + ');\\n';
+        } else {
+            code += line != '' ? 'r.push(`' + line.replace(/"/g, '\\"') + '`);\\n' : '';
+        }
+        return add;
+    }
+    while(match = re.exec(html)) {
+        add(html.slice(cursor, match.index))(match[1], true);
+        cursor = match.index + match[0].length;
+    }
+    add(html.substr(cursor, html.length - cursor), false);
+    code += 'return r.join("");';
+    code = code.replace(/\\t+|\\r\\n+|\\n+/g, '');
+    var fun = new Function(code);
+    var renderer = function(args) {
+        return fun.apply(args);
+    }
+    return renderer;
+}
+
+// file:markdown 2024-07-24T16:27:33.139Z
+
+/**
+ * simple markdown to html converter
+ * @param {*} content 
+ * @returns html text
+ */
+
+function markdown2html(content)
+{
+    function parseSentence(sentence) {
+        // code
+        var r = /(.*)`(.*)`(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<code>" + r[2] + "</code>" + parseSentence(r[3]);
+        // image
+        r = /(.*)!\[(.*)\]\((.*)\)(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<img src='" + r[3] + "' alt='" + r[2] + "'>" + parseSentence(r[4]);
+        // link
+        r = /(.*)\[(.*)\]\((.*)\)(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<a href='" + r[3] + "'>" + r[2] + "</a>" + parseSentence(r[4]);
+        // italic bold
+        r = /(.*)[\_\*]{3,}(.*)[\_\*]{3,}(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<b><i>" + r[2] + "</i></b>" + parseSentence(r[3]);
+        // bold
+        r = /(.*)[\_\*]{2}(.*)[\_\*]{2}(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<b>" + r[2] + "</b>" + parseSentence(r[3]);
+        // italic
+        r = /(^|^\S+\s+)[\_\*]{1}(.*)[\_\*]{1}($|\s+\S*$)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<i>" + r[2] + "</i>" + parseSentence(r[3]);
+        // delete
+        r = /(.*)[~]{2,}(.*)[~]{2,}(.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<del>" + r[2] + "</del>" + parseSentence(r[3]);
+        // mark
+        r = /(.*)\[\^(.*)\](.*)/g.exec(sentence);
+        if (r) return parseSentence(r[1]) + "<sup>" + r[2] + "</sup>" + parseSentence(r[3]);
+        // not supported
+        return sentence;
+    }
+    function parseLine(line) {
+        // title
+        var r = /^(#+)(.+)/g.exec(line);
+        if (r) return "<h" + String(r[1].length) + ">" + parseSentence(r[2].trim()) + "</h" + String(r[1].length) + ">";
+        // block
+        var r = /^>(.*)/g.exec(line);
+        if (r) return "<div>" + parseSentence(r[1]) + "</div>";
+        // newline
+        var r = /^([\*\_]{3,})/g.exec(line);
+        if (r) return "<hr>";
+        // paragraph
+        if (line.length > 0) return "<p>" + parseSentence(line) + "</p>";
+    }
+    var lines = content.trim().split(/\r?\n\r?/);
+    var cursor = 0;
+    var results = [];
+    while (cursor < lines.length) {
+        var line = lines[cursor].trim();
+        if (cursor == 0 && line.match(/^[\-]{3}/g)) {
+            // comment
+            while (lines[cursor + 1] != undefined && !lines[cursor + 1].match(/^[\-]{3}/g)) {
+                cursor++;
+            }
+            cursor++;
+        } else if (line.startsWith("```")) {
+            // code
+            results.push("<xmp>");
+            cursor = cursor + 1;
+            while (!lines[cursor].trim().startsWith("```")) {
+                results.push(lines[cursor]);
+                cursor++;
+            }
+            results.push("</xmp>");
+        } else if (line.match(/^[\*\-\+] (.*)/g)) {
+            // list
+            results.push("<ul>");
+            var r = /^[\*\-\+](.*)/g.exec(lines[cursor]);
+            while (r) {
+                results.push("<li>" + parseSentence(r[1]) + "</li>");
+                cursor++;
+                r = /^[\*\-\+](.*)/g.exec(lines[cursor]);
+            }
+            results.push("</ul>");
+        } else if (line.startsWith("|")) {
+            // table
+            var row = 0;
+            results.push("<table>");
+            var r = /^[\|](.*)/g.exec(lines[cursor]);
+            while (r) {
+                row++;
+                results.push("<tr>");
+                var arr = r[0].split("|");
+                for (var i = 1; i < arr.length - 1; i++) {
+                    results.push(row == 1 ? "<th>" + parseSentence(arr[i].trim()) + "</th>" : "<td>" + parseSentence(arr[i].trim()) + "</td>");
+                }
+                results.push("<tr>");
+                cursor++;
+                r = /^[\|](.*)/g.exec(lines[cursor]);
+            }
+            results.push("</table>");
+        } else if (line.length == 0) {
+            // wrapline
+            while (lines[cursor + 1] != undefined && lines[cursor + 1].length == 0) {
+                cursor++;
+                results.push("<br>");
+            }
+        } else {
+            // inline
+            var result = parseLine(line);
+            if (result) results.push(result);
+        }
+        cursor = cursor + 1;
+    }
+    return results.join("\n");
+}
+
+// file:html 2024-07-24T16:27:33.140Z
+
+/**
+ * simple html tools
+ * @param {*} map 
+ * @returns renderer func
+ */
+
+ var style2renderer = function(map, ...args) { 
+    map = map || {}
+    let lines = [];
+    Object.keys(map).forEach((it) => {
+        let val = map[it];
+        let key = it.replace('_', '-');
+        lines.push(`${key}: ${val}`);
+    });
+    let text = lines.join(';');
+    let renderer = (..._args) => {
+        let out = text;
+        for (let i = 0; i < _args.length; i++) {
+            const arg = _args[i];
+            const reg = new RegExp(`\\{${i}\\}`, 'g');
+            out = out.replace(reg, arg);
+        }
+        return out;
+    }
+    return args.length != 0 ? renderer(...args) : renderer;
+}
+
+var style2text = (style, ...args) => {
+    return style2renderer(style)(...args);
+}
+
+var text2style = (text) => {
+    let lines = text.split(";");
+    let style = {};
+    lines.forEach((line) => {
+        let parts = line.split(":");
+        if (parts.length != 2) return;
+        let [left, right] = parts;
+        let key = left.replace('-', '_');
+        style[key] = right;
+    })
+    return style;
+}
+
+let _node_attribute = (node, key, ...args) => {
+    let words = key.split(/(?=[A-Z])/);
+    let op = words.shift();
+    let nm = words.join("");
+    let at = nm.toLowerCase() == 'attribute';
+    let fn = `${op}Attribute`;
+    assert(fn != null && node[fn] != null, `oparation ${key} not found for node`);
+    return at ? node[fn](...args) : node[fn](nm, ...args);
+}
+
+let _class_functions = {
+    getClass: (node) => node.classList.value,
+    hasClass: (node) =>  node.classList.contains(text),
+    setClass: (node, text) => node.classList = text,
+    addClass: (node, text) => node.classList.add(text),
+    delClass: (node, text) => node.classList.remove(text),
+    togClass: (node, text) => node.classList.toggle(text),
+}
+
+let _style_functions = {
+    setStyle: (node, style, ...args) => {
+        assert(is_object(style), 'invalid style to node')
+        // proxy: listen style change and update node
+        let text = style2text(style, ...args);
+        assert(is_object(style), 'invalid style for node');
+        node.style = text;
+    },
+    getStyle: (node) => {
+        let text = node.style;
+        let style = text2style(text);
+        // proxy: listen style change and update node
+        return style;
+    },
+    delStyle: (node) => {
+        node.style += "all: initial;";
+    },
+}
+
+var node2proxy = function(node) {
+    let proxy = new Proxy(node, {
+        get(target, key) {
+            if (key == 'node') return node;
+            return (...args) => _node_attribute(node, key, ...args);
+        },
+    });
+    Object.keys(_class_functions).forEach((name) => {
+        let func = _class_functions[name];
+        node[name] = (...args) => func(node, ...args);
+    });
+    Object.keys(_style_functions).forEach((name) => {
+        let func = _style_functions[name];
+        node[name] = (...args) => func(node, ...args);
+    });
+    node.proxy = proxy;
+    return proxy;
+}
+
+////////////////////////////////////////////////////////////////////////////
+
+// node
+
+let _myNodeIdx = 0;
+let _usedIdsMap = {};
+let _listenArrays = [];
+let _myNodeAct = {
+    img(node, args) {
+        node.setAttribute('src', args.src || "");
+        node.setAttribute('alt', args.src || "...");
+    },
+    button(node, args) {
+        node.setAttribute('type', args.type || "button")
+    }
+}
+
+let __fresh = () => {
+    for (let i = _listenArrays.length - 1; i >= 0; i--) {
+        const element = _listenArrays[i];
+        const node = element[0];
+        const func = element[1];
+        const rslt = func();
+        const temp = is_dom(rslt) ? rslt : document.createTextNode(rslt);
+        node.replaceWith(temp);
+        element[0] = temp;
+    }
+    _listenArrays = _listenArrays.filter((element) => element.length == 2 || element[0].parentNode != null)
+}
+
+let __node = (tag, arg1, arg2, arg3, ...children) => {
+    // 
+    let args = {};
+    let styl = {};
+    let childs = [];
+    if (is_object(arg1) && is_object(arg2)) {
+        args = arg1;
+        styl = arg2;
+        childs = (is_arr(arg3) ? arg3 : [arg3]); childs.push(...children);
+    } else if (is_object(arg1)) {
+        args = arg1;
+        childs = (is_arr(arg2) ? arg2 : [arg2]); childs.push(arg3, ...children);
+    } else {
+        childs = (is_arr(arg1) ? arg1 : [arg1]); childs.push(arg2, arg3, ...children);
+    }
+    // 
+    _myNodeIdx++;
+    let node = document.createElement(tag);
+    let id = args.id != null ? `${args.id}` : `my_id_${_myNodeIdx}`;
+    let cls = is_arr(args.class) ? ar_str(args.class, " ") : to_str(args.class);
+    assert(_usedIdsMap[id] == null, `duplicated id for node: ${args}`);
+    node.setAttribute('id', id);
+    node.setAttribute('class', cls);
+    // 
+    let styArgs = is_str(args.style) ? args.style : style2text(args.style);
+    let styStyl = style2text(styl);
+    let styAlll = styArgs + ";" + styStyl;
+    node.setAttribute('style', styAlll);
+    //
+    childs.forEach((child) => {
+        if (is_nil(child)) return;
+        if (is_str(child)) child = document.createTextNode(child);
+        if (is_fun(child)) {
+            let func = child;
+            let rslt = func();
+            let node = is_dom(rslt) ? rslt : document.createTextNode(rslt);
+            _listenArrays.push([node, func]);
+            child = node;
+        }
+        node.appendChild(child)
+    })
+    //
+    Object.keys(args).forEach((key) => {
+        let val = args[key];
+        if (!is_str(key)) {
+            return;
+        } else if (key.toLowerCase().startsWith("on") && is_fun(val)) {
+            node[key.toLowerCase()] = val;
+        } else if (!['id', 'class', 'style'].includes(key)) {
+            node.setAttribute(key, val);
+        }
+    })
+    //
+    if (_myNodeAct[tag]) _myNodeAct[tag](node, args);
+    _usedIdsMap[id] = true;
+    return node;
+}
+
+let tags = new Proxy((name, ...args) => {
+    if (name == null) return __fresh();
+    return __node(name, ...args);
+}, {
+    get: (target, name) => {
+        return target.bind(null, name);
+    }
+})
+
+////////////////////////////////////////////////////////////////////////////
+
+let _myStyleId = "my_style";
+let _html_function = (args, func) => {
+    let _obj = {}
+    _obj.addStyle = (selector, info) => {
+        let style = style2text(info);
+        let text = `${name} {\n${style}\n}`;
+        document.getElementById(_myStyleId).innerHTML += text;
+    }
+    _obj.getStyle = (selector, key) => {
+        const element = document.querySelector(selector);
+        const style = window.getComputedStyle(element);
+        return key != undefined ? style.getPropertyValue(key) : style;
+    }
+    _obj.delStyle = (selector) => {
+        let text = `${name} {\nall: initial;\n}`;
+        document.getElementById(_myStyleId).innerHTML += text;
+    }
+    _obj.addStyles = (map) => {
+        Object.keys(map).forEach((key) => _obj.addStyle(key, map[key]));
+    }
+    _obj.setStyles = (map) => {
+        document.querySelectorAll(`style[id="${_myStyleId}"]`).forEach(e => e.remove());
+        document.head.insertAdjacentHTML("beforeend", `<style id="${_myStyleId}"></style>`);
+        _obj.addStyles(map);
+    }
+    return _obj;
+}
+
+
+
+</script>
+
+<script type="text/javascript" origin_file="./build/translate.js">
+
+// ./others/translate.tpl.js 2024-07-28 23:47:30
+
+
+let TRANSLATE_PROJECT_REPO = 'https://github.com/kompasim/UyghurScript'; 
+
+let TRANSLATE_LETTERS_MAP = {
+TVALUE_EMPTY:{en:"empty",uy:"قۇرۇق",ug:"quruq",uz:"bo'sh",tr:"boş",kz:"бос",},
+TVALUE_LOGIC:{en:"logic",uy:"لوگىكا",ug:"logika",uz:"mantiq",tr:"mantık",kz:"логика",},
+TVALUE_NUM:{en:"num",uy:"سان",ug:"san",uz:"son",tr:"sayı",kz:"сан",},
+TVALUE_STR:{en:"str",uy:"خەت",ug:"xet",uz:"xat",tr:"dize",kz:"хат",},
+TVALUE_BOX:{en:"box",uy:"ساندۇق",ug:"sanduq",uz:"sandiq",tr:"sandık",kz:"сандық",},
+TVALUE_WHILE:{en:"while",uy:"ناۋادا",ug:"nawada",uz:"shundayda",tr:"böyleyse",kz:"солайда",},
+TVALUE_IF:{en:"if",uy:"ئەگەر",ug:"eger",uz:"agar",tr:"eğer",kz:"егер",},
+TVALUE_IF_ELSE:{en:"elif",uy:"ئەگەردە",ug:"egerde",uz:"egerda",tr:"eğerde",kz:"егерде",},
+TVALUE_THEN:{en:"then",uy:"بولسا",ug:"bolsa",uz:"bo'lsa",tr:"olsa",kz:"болса",},
+TVALUE_ELSE:{en:"else",uy:"بولمىسا",ug:"bolmisa",uz:"bo'lmasa",tr:"olmasa",kz:"болмаса",},
+TVALUE_CODE_END:{en:"finish",uy:"تاماملانسۇن",ug:"tamamlansun",uz:"tamomlansin",tr:"tamamlansin",kz:"аяқталсын",},
+TVALUE_TRUE:{en:"right",uy:"راست",ug:"rast",uz:"rost",tr:"doğru",kz:"рас",},
+TVALUE_FALSE:{en:"wrong",uy:"يالغان",ug:"yalghan",uz:"yolg'on",tr:"yanlış",kz:"жалған",},
+TVALUE_OPPOSITE:{en:"opposite",uy:"ئەكىسچە",ug:"ekische",uz:"qarshi",tr:"karşı",kz:"қарсы",},
+TVALUE_COMMAND:{en:"command",uy:"بۇيرۇق",ug:"buyruq",uz:"buyruq",tr:"buyruk",kz:"бұйрық",},
+TVALUE_CMD_OUTPUT:{en:"write",uy:"يېزىلسۇن",ug:"yezilsun",uz:"yozilsin",tr:"yaz",kz:"жазу",},
+TVALUE_CMD_INPUT:{en:"read",uy:"ئوقۇلسۇن",ug:"oqulsun",uz:"o'qisin",tr:"oku",kz:"оқу",},
+TVALUE_VARIABLE:{en:"variable",uy:"مىقدار",ug:"miqdar",uz:"o'zgaruvch",tr:"değişken",kz:"айнымалы",},
+TVALUE_VALUE:{en:"value",uy:"قىممىتى",ug:"qimmiti",uz:"qiymati",tr:"kıymeti",kz:"қимметі",},
+TVALUE_MADE:{en:"made",uy:"بولسۇن",ug:"bolsun",uz:"bo'lsin",tr:"olsun",kz:"болсын",},
+TVALUE_EXCEPTION:{en:"exception",uy:"خاتالىق",ug:"xataliq",uz:"xatolik",tr:"hatalık",kz:"қателік",},
+TVALUE_FUNCTION:{en:"function",uy:"فونكىسىيە",ug:"fonkisiye",uz:"funksiya",tr:"fonksiyon",kz:"функция",},
+TVALUE_CONTENT:{en:"content",uy:"مەزمۇنى",ug:"mezmuni",uz:"mazmuni",tr:"içeriği",kz:"мазмұны",},
+TVALUE_WITH:{en:"with",uy:"بىلەن",ug:"bilen",uz:"bilan",tr:"ile",kz:"бірге",},
+TVALUE_CALL:{en:"called",uy:"ئىشلىتىلسۇن",ug:"ishlitilsun",uz:"ishlatilsin",tr:"kullanılsın",kz:"қолданылсын",},
+TVALUE_RETURN:{en:"returned",uy:"قايتۇرۇلسۇن",ug:"qayturulsun",uz:"qaytarilsin",tr:"geriverılsın",kz:"қайтарылсын",},
+TVALUE_FURTHER:{en:"and",uy:"ۋە",ug:"we",uz:"va",tr:"ve",kz:"бен",},
+TVALUE_RESULT:{en:"result",uy:"نەتىجە",ug:"netije",uz:"natija",tr:"netice",kz:"нәтиже",},
+};
+
+let TRANSLATE_LANGS_ARR = [
+'en', 'uy', 'ug', 'uz', 'tr', 'kz'
+];
+
+let TRANSLATE_LANGS_MAP = {};
+Object.keys(TRANSLATE_LETTERS_MAP).forEach((name) => {
+    let info = TRANSLATE_LETTERS_MAP[name];
+    Object.keys(info).forEach((lang) => {
+        let letter = info[lang];
+        TRANSLATE_LANGS_MAP[letter] = lang;
+    });
+});
+let TRANSLATE_LANG_KEYS = Object.keys(TRANSLATE_LANGS_MAP);
+TRANSLATE_LANG_KEYS.sort((a, b) => b.length - a.length);
+
+function __translate_ug_code(from, to, code) {
+    let text = code.substring(0);
+    //
+    let convertMap = {};
+    Object.keys(TRANSLATE_LETTERS_MAP).forEach((key) => {
+        let info = TRANSLATE_LETTERS_MAP[key];
+        let fromLang = info[from];
+        let toLang = info[to];
+        convertMap[fromLang] = toLang;
+    });
+    let keys = Object.keys(convertMap);
+    keys.sort((a, b) => b.length - a.length);
+    //
+    function block2translated(block) {
+        for (let i = 0; i < keys.length; i++) {
+            const key = keys[i];
+            const value = convertMap[key];
+            if (key == block) {
+                return value;
+            }
+            // text = text.replaceAll(key, value);
+        }
+        return block;
+    }
+    //
+    let chars = Array.from(text.replace(/\r\n/g, "\n"));
+    let lines = [];
+    let isString = false;
+    let line = "";
+    for (let i = 0; i < chars.length; i++) {
+        const char = chars[i];
+        if (char == "[") isString = true;
+        if (char == "]") isString = false;
+        if (char != '\n' || isString) {
+            line = line + char;
+        } else {
+            lines.push(line);
+            line = "";
+        }
+    }
+    if (line.length > 0) {
+        lines.push(line);
+        line = "";
+    }
+    //
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        let blocks = line.split(" ");
+        for (let j = 0; j < blocks.length; j++) {
+            const block = blocks[j];
+            let translated = block2translated(block);
+            blocks[j] = translated;
+        }
+        lines[i] = blocks.join(" ");
+    }
+    text = lines.join("\n");
+    //
+    return text;
+}
+function translate_ug_code(langOrLangs, code) {
+    //
+    let _from = null;
+    for (let i = 0; i < TRANSLATE_LANG_KEYS.length; i++) {
+        const tran = TRANSLATE_LANG_KEYS[i];
+        const lang = TRANSLATE_LANGS_MAP[tran];
+        if (code.includes(tran)) {
+            _from = lang;
+            break;
+        }
+    }
+    if (typeof _from != 'string') throw new Error("origin lang invalid");
+    // 
+    let langs = [];
+    if (typeof langOrLangs == 'string') {
+        langs.push(langOrLangs);
+    } else if (langOrLangs instanceof Array) {
+        langs = langOrLangs;
+    } else {
+        throw new Error("target lang invalid");
+    }
+    if (langs.length <= 0) langs = TRANSLATE_LANGS_ARR;
+    let texts = {};
+    for (let index = 0; index < langs.length; index++) {
+        const lang = langs[index];
+        texts[lang] = __translate_ug_code(_from, lang, code);
+    }
+    if (typeof langOrLangs == 'string') {
+        return texts[langOrLangs];
+    } else {
+        return texts;
+    }
+}
+
+if (typeof global !== 'undefined') {
+    global.translate_ug_code = translate_ug_code;
+    global.TRANSLATE_LANGS_ARR = TRANSLATE_LANGS_ARR;
+}
+
+</script>
+
+<script type="text/javascript" origin_file="./build/colorize.js">
+
+let COLORIZE_PROJECT_REPO = 'https://github.com/kompasim/UyghurScript'; 
+
+let COLORIZE_COLOR_MAP = {
+"empty":"green",
+"قۇرۇق":"green",
+"quruq":"green",
+"bo'sh":"green",
+"boş":"green",
+"бос":"green",
+"logic":"green",
+"لوگىكا":"green",
+"logika":"green",
+"mantiq":"green",
+"mantık":"green",
+"логика":"green",
+"num":"green",
+"سان":"green",
+"san":"green",
+"son":"green",
+"sayı":"green",
+"сан":"green",
+"str":"green",
+"خەت":"green",
+"xet":"green",
+"xat":"green",
+"dize":"green",
+"хат":"green",
+"box":"green",
+"ساندۇق":"green",
+"sanduq":"green",
+"sandiq":"green",
+"sandık":"green",
+"сандық":"green",
+"while":"red",
+"ناۋادا":"red",
+"nawada":"red",
+"shundayda":"red",
+"böyleyse":"red",
+"солайда":"red",
+"if":"red",
+"ئەگەر":"red",
+"eger":"red",
+"agar":"red",
+"eğer":"red",
+"егер":"red",
+"elif":"red",
+"ئەگەردە":"red",
+"egerde":"red",
+"egerda":"red",
+"eğerde":"red",
+"егерде":"red",
+"then":"red",
+"بولسا":"red",
+"bolsa":"red",
+"bo'lsa":"red",
+"olsa":"red",
+"болса":"red",
+"else":"red",
+"بولمىسا":"red",
+"bolmisa":"red",
+"bo'lmasa":"red",
+"olmasa":"red",
+"болмаса":"red",
+"finish":"red",
+"تاماملانسۇن":"red",
+"tamamlansun":"red",
+"tamomlansin":"red",
+"tamamlansin":"red",
+"аяқталсын":"red",
+"right":"green",
+"راست":"green",
+"rast":"green",
+"rost":"green",
+"doğru":"green",
+"рас":"green",
+"wrong":"green",
+"يالغان":"green",
+"yalghan":"green",
+"yolg'on":"green",
+"yanlış":"green",
+"жалған":"green",
+"opposite":"green",
+"ئەكىسچە":"green",
+"ekische":"green",
+"qarshi":"green",
+"karşı":"green",
+"қарсы":"green",
+"command":"red",
+"بۇيرۇق":"red",
+"buyruq":"red",
+"buyruq":"red",
+"buyruk":"red",
+"бұйрық":"red",
+"write":"red",
+"يېزىلسۇن":"red",
+"yezilsun":"red",
+"yozilsin":"red",
+"yaz":"red",
+"жазу":"red",
+"read":"red",
+"ئوقۇلسۇن":"red",
+"oqulsun":"red",
+"o'qisin":"red",
+"oku":"red",
+"оқу":"red",
+"variable":"blue",
+"مىقدار":"blue",
+"miqdar":"blue",
+"o'zgaruvch":"blue",
+"değişken":"blue",
+"айнымалы":"blue",
+"value":"red",
+"قىممىتى":"red",
+"qimmiti":"red",
+"qiymati":"red",
+"kıymeti":"red",
+"қимметі":"red",
+"made":"red",
+"بولسۇن":"red",
+"bolsun":"red",
+"bo'lsin":"red",
+"olsun":"red",
+"болсын":"red",
+"exception":"red",
+"خاتالىق":"red",
+"xataliq":"red",
+"xatolik":"red",
+"hatalık":"red",
+"қателік":"red",
+"function":"red",
+"فونكىسىيە":"red",
+"fonkisiye":"red",
+"funksiya":"red",
+"fonksiyon":"red",
+"функция":"red",
+"content":"red",
+"مەزمۇنى":"red",
+"mezmuni":"red",
+"mazmuni":"red",
+"içeriği":"red",
+"мазмұны":"red",
+"with":"red",
+"بىلەن":"red",
+"bilen":"red",
+"bilan":"red",
+"ile":"red",
+"бірге":"red",
+"called":"red",
+"ئىشلىتىلسۇن":"red",
+"ishlitilsun":"red",
+"ishlatilsin":"red",
+"kullanılsın":"red",
+"қолданылсын":"red",
+"returned":"blue",
+"قايتۇرۇلسۇن":"blue",
+"qayturulsun":"blue",
+"qaytarilsin":"blue",
+"geriverılsın":"blue",
+"қайтарылсын":"blue",
+"and":"red",
+"ۋە":"red",
+"we":"red",
+"va":"red",
+"ve":"red",
+"бен":"red",
+"result":"blue",
+"نەتىجە":"blue",
+"netije":"blue",
+"natija":"blue",
+"netice":"blue",
+"нәтиже":"blue",
+};
+
+let __code_bg_style = `
+background: #272823;
+color: #eff0ea;
+font-family: Roboto,Arial,sans-serif,Alkatip;
+`;
+
+let __code_fg_colors = {
+    red: "#f92f78",
+    yellow: "#e7dc79",
+    green: "#a1db27",
+    blue: "#64d2e7",
+    grey: "#8d7d4f",
+    purple: "#a686ff",
+    orange: "#fd8e2a",
+};
+
+function colorize_ug_code(code, isColorized) {
+    let text = code.substring(0).trim();
+    //
+    let keys = Object.keys(COLORIZE_COLOR_MAP);
+    keys.sort((a, b) => b.length - a.length);
+    //
+    function block2colorized(block) {
+        for (let i = 0; i < keys.length; i++) {
+            const key = keys[i];
+            const color = COLORIZE_COLOR_MAP[key];
+            if (key == block) {
+                return `<${color}>${key}</${color}>`;
+            }
+        }
+        if (!isNaN(block) && typeof Number(block) === 'number') {
+            return `<purple>${block}</purple>`;
+        }
+        if (block.startsWith('[') && block.endsWith(']')) {
+            var _block = block.substring(1, block.length - 1);
+            return `[<yellow>${_block}</yellow>]`;
+        }
+        if ("+-*/%^".includes(block)) {
+            return `<red>${block}</red>`;
+        }
+        block = block.replaceAll(/@(\S+)\[(\S+)\]/gi, `<orange>@$1</orange>[<yellow>$2</yellow>]`);
+        block = block.replaceAll(/@(\S+)\{(\S+)\}/gi, `<orange>@$1</orange>[<white>$2</white>]`);
+        block = block.replaceAll(/@(\S+)\((\S+)\)/gi, `<orange>@$1</orange>[<purple>$2</purple>]`);
+        return block;
+    }
+    //
+    let chars = Array.from(text.replace(/\r\n/g, "\n"));
+    let lines = [];
+    let isString = false;
+    let line = "";
+    for (let i = 0; i < chars.length; i++) {
+        const char = chars[i];
+        if (char == "[") isString = true;
+        if (char == "]") isString = false;
+        if (char != '\n' || isString) {
+            line = line + char;
+        } else {
+            lines.push(line);
+            line = "";
+        }
+    }
+    if (line.length > 0) {
+        lines.push(line);
+        line = "";
+    }
+    //
+    for (let i = 0; i < lines.length; i++) {
+        let line = JSON.stringify(lines[i]).replaceAll(/^"/gi, "").replaceAll(/"$/gi, "");
+        if (line.match("^\s*#")) {
+            lines[i] = line.replaceAll(/#([^\n]+)/gi, `<grey>#$1</grey>`);
+            continue;
+        }
+        let blocks = line.split(" ");
+        for (let j = 0; j < blocks.length; j++) {
+            const block = blocks[j];
+            let translated = block2colorized(block);
+            blocks[j] = translated;
+        }
+        lines[i] = blocks.join(" ");
+    }
+    let _text = lines.join("\n");
+    //
+    _text = _text.replaceAll(/<([a-z]+)>/gi, function(match, p1, offset, string, groups) {
+        let _styl = isColorized ? `style='color:` + __code_fg_colors[p1] + `;'` : "";
+        return `<${p1} ${_styl} >`;
+      });
+    // 
+    let _styl = isColorized ? `style="${__code_bg_style}"` : "";
+    _text = `<pre ${_styl} >${_text}</pre>`;
+    //
+    return _text;
+}
+
+if (typeof global !== 'undefined') {
+    global.colorize_ug_code = colorize_ug_code;
+}
+
+</script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background: #171714;
+            color: whitesmoke;
+        }
+        textarea {
+            min-height:250px;
+            width: 100%;
+            background: #272823;
+            color: #eff0ea;
+        }
+        pre {
+            background: #272823;
+            color: #eff0ea;
+            font-family: Roboto,Arial,sans-serif,Alkatip;
+        }
+        red {
+            color: #f92f78;
+        }
+        yellow {
+            color: #e7dc79;
+        }
+        green {
+            color: #a1db27;
+        }
+        blue {
+            color: #64d2e7;
+        }
+        grey {
+            color: #8d7d4f;
+        }
+        purple {
+            color: #a686ff;
+        }
+        orange {
+            color: #fd8e2a;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        Converter
+        for
+        <a id="link" href="">UyghurScript</a>
+    </h3>
+    <textarea name="editor" id="editor"></textarea>
+    <div id="code"></div>
+</body>
+</html>
+<script>
+
+"use strict";
+var $ = query2selector();
+
+let code = `
+# a local variable
+miqdar t qimmiti 0 bolsun
+
+# a function with two arguments
+fonkisiye f miqdar x y mezmuni
+    t = x + y
+    netije t qayturulsun
+tamamlansun
+
+# call functions and receive result
+fonkisiye f bilen 10 20 ishlitilsun we netije r bolsun
+
+# print the result value received
+buyruq r yezilsun
+`;
+
+
+function setLang(lang) {
+    let _text = $("#editor").nodes()[0].value;
+    let _code = translate_ug_code(lang, _text);
+    let _pre = colorize_ug_code(_code);
+    // 
+    let buttons = [];
+    for (let i = 0; i < TRANSLATE_LANGS_ARR.length; i++) {
+        const lang = TRANSLATE_LANGS_ARR[i];
+        let button = `<button onclick="setLang('${lang}')">${lang}</button>`;
+        buttons.push(button)
+    }
+    let _btn = buttons.join("\n");
+    $("#code").html(_btn + _pre);
+}
+
+function language2buttons() {
+    return `<div>${_text}</div>`;
+}
+
+window.onload = function() {
+    $("#editor").html(code);
+    $("#link").nodes()[0].href = TRANSLATE_PROJECT_REPO;
+    setLang("en");
+};
+    
+    </script>

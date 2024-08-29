@@ -1,7 +1,7 @@
 
-# kompasim
+# Atypicalim
 
-> Hi there 👋 kompasim@163.com
+> Hi there 👋 Atypicalim@163.com
 
 ![icon](https://avatars.githubusercontent.com/u/16191037?v=4)
 
@@ -9,17 +9,17 @@
 
 ## Links
 
-* [github](https://github.com/kompasim)
-* [blog](https://kompasim.github.io)
-* [pip](https://pypi.org/user/kompasim/)
-* [npm](https://www.npmjs.com/~kompasim)
-* [vscode](https://marketplace.visualstudio.com/publishers/kompasim)
+* [github](https://github.com/Atypicalim)
+* [blog](https://Atypicalim.github.io)
+* [pip](https://pypi.org/user/Atypicalim/)
+* [npm](https://www.npmjs.com/~atypicalim)
+* [vscode](https://marketplace.visualstudio.com/publishers/Atypicalim)
 
 ---
 
 ## Learning
 
-* [script to record new words easily for windows](https://gist.github.com/kompasim/00335d5ea603a84c13a6be1d71a39997)
+* [script to record new words easily for windows](https://gist.github.com/Atypicalim/00335d5ea603a84c13a6be1d71a39997)
 
 * [New Turkish words for myself](tr.md)
 * [New Russian words for myself](ru.md)
@@ -30,9 +30,9 @@
 
 ## Tools
 
-* [Kirguzguch](https://kompasim.github.io/others/kirguzguch.html)
+* [Kirguzguch](https://Atypicalim.github.io/others/kirguzguch.html)
 
-* [Converter](https://kompasim.github.io/others/converter.html)
+* [Converter](https://Atypicalim.github.io/others/converter.html)
 
 * [FFmpeg](https://ffmpeg.org/) | [FFmpegKit](https://tanersener.github.io/ffmpeg-kit/)
 
@@ -126,7 +126,7 @@ console.log(div("content...")); // <div>content...</div>
 ---
 
 <script src="https://giscus.app/client.js"
-        data-repo="kompasim/kompasim.github.io"
+        data-repo="Atypicalim/Atypicalim.github.io"
         data-repo-id="R_kgDOH1aiUQ"
         data-category="General"
         data-category-id="DIC_kwDOH1aiUc4CRL4b"

@@ -738,18 +738,23 @@ let _html_function = (args, func) => {
 
 <script type="text/javascript" origin_file="./build/translate.js">
 
-// ./others/translate.tpl.js 2024-07-28 23:47:30
+// ./others/translate.tpl.js 2024-10-07 19:42:59
 
 
 let TRANSLATE_PROJECT_REPO = 'https://github.com/Atypicalim/UyghurScript'; 
 
 let TRANSLATE_LETTERS_MAP = {
-TVALUE_EMPTY:{en:"empty",uy:"قۇرۇق",ug:"quruq",uz:"bo'sh",tr:"boş",kz:"бос",},
-TVALUE_LOGIC:{en:"logic",uy:"لوگىكا",ug:"logika",uz:"mantiq",tr:"mantık",kz:"логика",},
+TVALUE_HELLO:{en:"hello",uy:"سالام",ug:"salam",uz:"salom",tr:"selam",kz:"сәлем",},
+TVALUE_KIND:{en:"type",uy:"تىپ",ug:"tip",uz:"tur",tr:"tür",kz:"түр",},
+TVALUE_NIL:{en:"empty",uy:"قۇرۇق",ug:"quruq",uz:"bo'sh",tr:"boş",kz:"бос",},
+TVALUE_BOL:{en:"logic",uy:"لوگىكا",ug:"logika",uz:"mantiq",tr:"mantık",kz:"логика",},
 TVALUE_NUM:{en:"num",uy:"سان",ug:"san",uz:"son",tr:"sayı",kz:"сан",},
 TVALUE_STR:{en:"str",uy:"خەت",ug:"xet",uz:"xat",tr:"dize",kz:"хат",},
-TVALUE_BOX:{en:"box",uy:"ساندۇق",ug:"sanduq",uz:"sandiq",tr:"sandık",kz:"сандық",},
+TVALUE_LST:{en:"list",uy:"تەرتىپ",ug:"tertip",uz:"tartib",tr:"tertip",kz:"тертіп",},
+TVALUE_DCT:{en:"dict",uy:"ساندۇق",ug:"sanduq",uz:"sandiq",tr:"sandık",kz:"сандық",},
 TVALUE_WHILE:{en:"while",uy:"ناۋادا",ug:"nawada",uz:"shundayda",tr:"böyleyse",kz:"солайда",},
+TVALUE_SPREAD:{en:"speaded",uy:"يېيىلغان",ug:"yeyilghan",uz:"yoyilgan",tr:"yayılan",kz:"жайылған",},
+TVALUE_BECOME:{en:"become",uy:"بۇلۇپ",ug:"bulup",uz:"bo'lib",tr:"olup",kz:"болу",},
 TVALUE_IF:{en:"if",uy:"ئەگەر",ug:"eger",uz:"agar",tr:"eğer",kz:"егер",},
 TVALUE_IF_ELSE:{en:"elif",uy:"ئەگەردە",ug:"egerde",uz:"egerda",tr:"eğerde",kz:"егерде",},
 TVALUE_THEN:{en:"then",uy:"بولسا",ug:"bolsa",uz:"bo'lsa",tr:"olsa",kz:"болса",},
@@ -765,13 +770,25 @@ TVALUE_VARIABLE:{en:"variable",uy:"مىقدار",ug:"miqdar",uz:"o'zgaruvch",tr:
 TVALUE_VALUE:{en:"value",uy:"قىممىتى",ug:"qimmiti",uz:"qiymati",tr:"kıymeti",kz:"қимметі",},
 TVALUE_MADE:{en:"made",uy:"بولسۇن",ug:"bolsun",uz:"bo'lsin",tr:"olsun",kz:"болсын",},
 TVALUE_EXCEPTION:{en:"exception",uy:"خاتالىق",ug:"xataliq",uz:"xatolik",tr:"hatalık",kz:"қателік",},
-TVALUE_FUNCTION:{en:"function",uy:"فونكىسىيە",ug:"fonkisiye",uz:"funksiya",tr:"fonksiyon",kz:"функция",},
+TVALUE_TESTING:{en:"testing",uy:"سىناق",ug:"sinaq",uz:"sinov",tr:"sınav",kz:"сынақ",},
+TVALUE_TESTED:{en:"tested",uy:"سىنالسۇن",ug:"sinalsun",uz:"sinolsin",tr:"sınalsın",kz:"сыналсын",},
+TVALUE_NATIVE:{en:"native",uy:"ئەمگەكچى",ug:"emgekchi",uz:"yumushchi",tr:"emekçi",kz:"жұмысшы",},
+TVALUE_WORKER:{en:"worker",uy:"خىزمەتچى",ug:"xizmetchi",uz:"xizmatchi",tr:"hizmetçi",kz:"қызметші",},
+TVALUE_CREATOR:{en:"creator",uy:"ياسىغۇچى",ug:"yasighuchi",uz:"yasag'uchi",tr:"oluşturucu",kz:"жасаушы",},
+TVALUE_ASSISTER:{en:"assister",uy:"ياردەمچى",ug:"yardemchi",uz:"yordamchi",tr:"yardımcı",kz:"жәрдемшы",},
+TVALUE_OBJECT:{en:"object",uy:"ئوبېكىت",ug:"obekit",uz:"obekit",tr:"obekit",kz:"объект",},
 TVALUE_CONTENT:{en:"content",uy:"مەزمۇنى",ug:"mezmuni",uz:"mazmuni",tr:"içeriği",kz:"мазмұны",},
 TVALUE_WITH:{en:"with",uy:"بىلەن",ug:"bilen",uz:"bilan",tr:"ile",kz:"бірге",},
-TVALUE_CALL:{en:"called",uy:"ئىشلىتىلسۇن",ug:"ishlitilsun",uz:"ishlatilsin",tr:"kullanılsın",kz:"қолданылсын",},
-TVALUE_RETURN:{en:"returned",uy:"قايتۇرۇلسۇن",ug:"qayturulsun",uz:"qaytarilsin",tr:"geriverılsın",kz:"қайтарылсын",},
-TVALUE_FURTHER:{en:"and",uy:"ۋە",ug:"we",uz:"va",tr:"ve",kz:"бен",},
+TVALUE_APPLY:{en:"applied",uy:"ئىشلىتىلسۇن",ug:"ishlitilsun",uz:"ishlatilsin",tr:"kullanılsın",kz:"қолданылсын",},
 TVALUE_RESULT:{en:"result",uy:"نەتىجە",ug:"netije",uz:"natija",tr:"netice",kz:"нәтиже",},
+TVALUE_RETURNED:{en:"returned",uy:"قايتۇرۇلسۇن",ug:"qayturulsun",uz:"qaytarilsin",tr:"geriverılsın",kz:"қайтарылсын",},
+TVALUE_FURTHER:{en:"and",uy:"ۋە",ug:"we",uz:"va",tr:"ve",kz:"бен",},
+TVALUE_RECIEVED:{en:"received",uy:"ئېلىنسۇن",ug:"elinsun",uz:"olinsin",tr:"alısın",kz:"алынсын",},
+TVALUE_THIS:{en:"this",uy:"بۇ",ug:"bu",uz:"bu",tr:"bu",kz:"бұ",},
+TVALUE_PROXY:{en:"proxy",uy:"ۋەكىل",ug:"vekil",uz:"vakil",tr:"vekil",kz:"түр",},
+TVALUE_SCOPE:{en:"scope",uy:"مۇھىت",ug:"muhit",uz:"muhit",tr:"çevre",kz:"орта",},
+TVALUE_MODULE:{en:"module",uy:"بۆلەك",ug:"bolek",uz:"bo'lak",tr:"bölge",kz:"бөлек",},
+TVALUE_GLOBAL:{en:"global",uy:"دۇنيا",ug:"dunya",uz:"dunyo",tr:"dünya",kz:"дүние",},
 };
 
 let TRANSLATE_LANGS_ARR = [
@@ -894,6 +911,18 @@ if (typeof global !== 'undefined') {
 let COLORIZE_PROJECT_REPO = 'https://github.com/Atypicalim/UyghurScript'; 
 
 let COLORIZE_COLOR_MAP = {
+"hello":"black",
+"سالام":"black",
+"salam":"black",
+"salom":"black",
+"selam":"black",
+"сәлем":"black",
+"type":"black",
+"تىپ":"black",
+"tip":"black",
+"tur":"black",
+"tür":"black",
+"түр":"black",
 "empty":"green",
 "قۇرۇق":"green",
 "quruq":"green",
@@ -918,7 +947,13 @@ let COLORIZE_COLOR_MAP = {
 "xat":"green",
 "dize":"green",
 "хат":"green",
-"box":"green",
+"list":"green",
+"تەرتىپ":"green",
+"tertip":"green",
+"tartib":"green",
+"tertip":"green",
+"тертіп":"green",
+"dict":"green",
 "ساندۇق":"green",
 "sanduq":"green",
 "sandiq":"green",
@@ -930,6 +965,18 @@ let COLORIZE_COLOR_MAP = {
 "shundayda":"red",
 "böyleyse":"red",
 "солайда":"red",
+"speaded":"red",
+"يېيىلغان":"red",
+"yeyilghan":"red",
+"yoyilgan":"red",
+"yayılan":"red",
+"жайылған":"red",
+"become":"red",
+"بۇلۇپ":"red",
+"bulup":"red",
+"bo'lib":"red",
+"olup":"red",
+"болу":"red",
 "if":"red",
 "ئەگەر":"red",
 "eger":"red",
@@ -1020,12 +1067,48 @@ let COLORIZE_COLOR_MAP = {
 "xatolik":"red",
 "hatalık":"red",
 "қателік":"red",
-"function":"red",
-"فونكىسىيە":"red",
-"fonkisiye":"red",
-"funksiya":"red",
-"fonksiyon":"red",
-"функция":"red",
+"testing":"black",
+"سىناق":"black",
+"sinaq":"black",
+"sinov":"black",
+"sınav":"black",
+"сынақ":"black",
+"tested":"black",
+"سىنالسۇن":"black",
+"sinalsun":"black",
+"sinolsin":"black",
+"sınalsın":"black",
+"сыналсын":"black",
+"native":"red",
+"ئەمگەكچى":"red",
+"emgekchi":"red",
+"yumushchi":"red",
+"emekçi":"red",
+"жұмысшы":"red",
+"worker":"red",
+"خىزمەتچى":"red",
+"xizmetchi":"red",
+"xizmatchi":"red",
+"hizmetçi":"red",
+"қызметші":"red",
+"creator":"red",
+"ياسىغۇچى":"red",
+"yasighuchi":"red",
+"yasag'uchi":"red",
+"oluşturucu":"red",
+"жасаушы":"red",
+"assister":"red",
+"ياردەمچى":"red",
+"yardemchi":"red",
+"yordamchi":"red",
+"yardımcı":"red",
+"жәрдемшы":"red",
+"object":"red",
+"ئوبېكىت":"red",
+"obekit":"red",
+"obekit":"red",
+"obekit":"red",
+"объект":"red",
 "content":"red",
 "مەزمۇنى":"red",
 "mezmuni":"red",
@@ -1038,30 +1121,66 @@ let COLORIZE_COLOR_MAP = {
 "bilan":"red",
 "ile":"red",
 "бірге":"red",
-"called":"red",
+"applied":"red",
 "ئىشلىتىلسۇن":"red",
 "ishlitilsun":"red",
 "ishlatilsin":"red",
 "kullanılsın":"red",
 "қолданылсын":"red",
-"returned":"blue",
-"قايتۇرۇلسۇن":"blue",
-"qayturulsun":"blue",
-"qaytarilsin":"blue",
-"geriverılsın":"blue",
-"қайтарылсын":"blue",
-"and":"red",
-"ۋە":"red",
-"we":"red",
-"va":"red",
-"ve":"red",
-"бен":"red",
-"result":"blue",
-"نەتىجە":"blue",
-"netije":"blue",
-"natija":"blue",
-"netice":"blue",
-"нәтиже":"blue",
+"result":"red",
+"نەتىجە":"red",
+"netije":"red",
+"natija":"red",
+"netice":"red",
+"нәтиже":"red",
+"returned":"red",
+"قايتۇرۇلسۇن":"red",
+"qayturulsun":"red",
+"qaytarilsin":"red",
+"geriverılsın":"red",
+"қайтарылсын":"red",
+"and":"blue",
+"ۋە":"blue",
+"we":"blue",
+"va":"blue",
+"ve":"blue",
+"бен":"blue",
+"received":"red",
+"ئېلىنسۇن":"red",
+"elinsun":"red",
+"olinsin":"red",
+"alısın":"red",
+"алынсын":"red",
+"this":"green",
+"بۇ":"green",
+"bu":"green",
+"bu":"green",
+"bu":"green",
+"бұ":"green",
+"proxy":"green",
+"ۋەكىل":"green",
+"vekil":"green",
+"vakil":"green",
+"vekil":"green",
+"түр":"green",
+"scope":"green",
+"مۇھىت":"green",
+"muhit":"green",
+"muhit":"green",
+"çevre":"green",
+"орта":"green",
+"module":"green",
+"بۆلەك":"green",
+"bolek":"green",
+"bo'lak":"green",
+"bölge":"green",
+"бөлек":"green",
+"global":"green",
+"دۇنيا":"green",
+"dunya":"green",
+"dunyo":"green",
+"dünya":"green",
+"дүние":"green",
 };
 
 let __code_bg_style = `
@@ -1097,16 +1216,21 @@ function colorize_ug_code(code, isColorized) {
         if (!isNaN(block) && typeof Number(block) === 'number') {
             return `<purple>${block}</purple>`;
         }
-        if (block.startsWith('[') && block.endsWith(']')) {
-            var _block = block.substring(1, block.length - 1);
-            return `[<yellow>${_block}</yellow>]`;
+        if (block.startsWith(`\\"`) && block.endsWith(`\\"`)) {
+            var _block = block.substring(2, block.length - 2);
+            return `<yellow>"${_block}"</yellow>`;
         }
         if ("+-*/%^".includes(block)) {
             return `<red>${block}</red>`;
         }
-        block = block.replaceAll(/@(\S+)\[(\S+)\]/gi, `<orange>@$1</orange>[<yellow>$2</yellow>]`);
-        block = block.replaceAll(/@(\S+)\{(\S+)\}/gi, `<orange>@$1</orange>[<white>$2</white>]`);
-        block = block.replaceAll(/@(\S+)\((\S+)\)/gi, `<orange>@$1</orange>[<purple>$2</purple>]`);
+
+        let yBgn = "<yellow>";
+        let yEnd = "</yellow>";
+        let prefix = `<orange>@$1</orange>${yBgn}`;
+
+        block = block.replaceAll(/@(\S+)\:([^\d\s][^\s]*)/gi, `${prefix}${yEnd}<yellow>:$2</yellow${yBgn}${yEnd}`);
+        block = block.replaceAll(/@(\S+)\:(\d\d*)/gi, `${prefix}${yEnd}<purple>:$2</purple>${yBgn}${yEnd}`);
+        block = block.replaceAll(/@(\S+)\{(\S+)\}/gi, `${prefix}{${yEnd}<white>$2</white>${yBgn}}${yEnd}`);
         return block;
     }
     //
@@ -1116,8 +1240,9 @@ function colorize_ug_code(code, isColorized) {
     let line = "";
     for (let i = 0; i < chars.length; i++) {
         const char = chars[i];
-        if (char == "[") isString = true;
-        if (char == "]") isString = false;
+        if (char == `"`) {
+            isString = isString == false ? true : false;
+        }
         if (char != '\n' || isString) {
             line = line + char;
         } else {
@@ -1221,19 +1346,26 @@ if (typeof global !== 'undefined') {
 var $ = query2selector();
 
 let code = `
-# a local variable
+# a local var
 miqdar t qimmiti 0 bolsun
+miqdar b qimmiti sanduq bolsun
+miqdar key qimmiti "key" bolsun
+miqdar val qimmiti "val" bolsun
+
+@b:abc = "abc"
+@b:123 = 456
+@b{key} = val
 
 # a function with two arguments
-fonkisiye f miqdar x y mezmuni
+xizmetchi f miqdar x y mezmuni
     t = x + y
     netije t qayturulsun
 tamamlansun
 
 # call functions and receive result
-fonkisiye f bilen 10 20 ishlitilsun we netije r bolsun
+xizmetchi f bilen 10 20 ishlitilsun we r elinsun
 
-# print the result value received
+# print val received
 buyruq r yezilsun
 `;
 

@@ -52,9 +52,9 @@
 
 * [Online photopea](https://www.photopea.com/)
 
-* [Online pixelize](https://giventofly.github.io/pixelit/)
+* [sound](https://www.leshylabs.com/apps/sfMaker/) | [font](https://fontmeme.com/generate-text-with-any-font/)
 
-* [Online pixilart](https://pixelartcss.com/)
+* [pixelit](https://giventofly.github.io/pixelit/) | [pixilart](https://pixelartcss.com/) | [piskelapp](https://www.piskelapp.com/)
 
 ---
 

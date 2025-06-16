@@ -14,6 +14,8 @@
 * [pip](https://pypi.org/user/Atypicalim/)
 * [npm](https://www.npmjs.com/~atypicalim)
 * [vscode](https://marketplace.visualstudio.com/publishers/Atypicalim)
+* [dev](https://dev.to/atypicalim)
+* [500px](https://500px.com/p/atypicalim)
 
 ---
 

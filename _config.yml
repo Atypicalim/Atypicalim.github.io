@@ -1,0 +1,74 @@
+
+# ==============================================================================
+# GLOBAL SITE METADATA (SEO & Core Identity)
+# ==============================================================================
+title: "My Creative Dev Blog"
+tagline: "Thinking deep, Coding fast."
+description: "A personal blog about software engineering, automation, and clean code."
+url: "https://atypicalim.github.io"
+baseurl: "" # Leave empty if root directory; change if subfolder (e.g., /blog)
+
+# ==============================================================================
+# AUTHOR PROFILE INFO (Displays in sidebars/footers)
+# ==============================================================================
+author:
+  name: "AlimjanYusan"
+  email: "Atypicalim@163.com"
+  bio: "Software Engineer obsessed with open-source automation and technical writing."
+  avatar: "https://avatars.githubusercontent.com/u/16191037?v=4"  # Path to your profile picture if theme supports it
+  # Social media links (Commonly used by themes like Minima, Chirpy, and Minimal Mistakes)
+  dev: "atypicalim"
+  github: "atypicalim"
+
+# ==============================================================================
+# PLUGINS TO USE
+# ==============================================================================
+plugins:
+  - jekyll-remote-theme
+
+# ==============================================================================
+# DESIGN THEME SELECTION
+# ==============================================================================
+# Option A: Built-in GitHub Pages theme (Uncomment the line below to use)
+# theme: jekyll-theme-minima
+# Option B: Advanced Community Theme (Uncomment both lines below to use instead)
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# ==============================================================================
+# URL & PERMALINK STRUCTURE
+# ==============================================================================
+# Generates clean, professional URLs: ://yoursite.com
+# /:year/:month/:day/:title/
+# /posts/:title/
+permalink: /:title/
+
+# ==============================================================================
+# CODE FORMATTING & TEXT PARSING
+# ==============================================================================
+markdown: kramdown
+highlighter: rouge # Default GitHub Pages syntax highlighting engine
+
+kramdown:
+  input: GFM       # Enables GitHub Flavored Markdown (tables, task lists, strikethrough)
+  syntax_highlighter_opts:
+    block_class: "highlight" # Standard CSS class wrapper for code syntax blocks
+
+# ==============================================================================
+# FILE MANAGEMENT (Inclusions & Exclusions)
+# ==============================================================================
+# Tell Jekyll to ignore local files, logs, and development configurations
+exclude:
+  # - README.md
+  - .github/       # Safe step: keeps workflows from cluttering live built sites
+  - node_modules/
+  - vendor/
+  - .jekyll-cache/
+# Tell Jekyll to explicitly include hidden configuration or deployment tracking files
+include:
+  - .htaccess
+
+# ==============================================================================
+# BLOG ENGINE CONFIGURATIONS & COMPILER SETTINGS
+# ==============================================================================
+show_excerpts: true  # Shows a snippet summary instead of the full post text on homepages
+paginate: 5          # Limits post lists to 5 per page (Requires jekyll-paginate plugin)
